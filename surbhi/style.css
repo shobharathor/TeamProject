@@ -317,3 +317,7 @@ table, th, td {
     background-color: #fafafa;
     padding: 5px 30px;
 }
+
+.app_img img {
+    width: 71rem;
+}

@@ -1,8 +1,14 @@
 
-/* * {
-    margin: 0;
-    padding: 0;
-}  */
+:root {
+    --font-family: 'Barlow (woff2)', sans-serif;
+    --background-color: #f9fbfe;
+    --whit-background-color: #ffffff;
+    --dark-blue-color: #3f5bd9;
+}
+
+h1, h2, h3, h4, h5, h6, p, li, ul, td, th, input, label, option {
+    font-family: 'Barlow', sans-serif;
+}
 
 /* Navbar Styling */
 
@@ -12,7 +18,7 @@
     padding-bottom: 12px;
     padding-left: -9px;
     padding-right: 0px;
-    position: ;
+
     
     
 } 
@@ -68,38 +74,31 @@
     margin-bottom: 29px;
     margin-left: 1239px;
     margin-right: 19px;
-    background-color: white;
-  
+    background-color: var(--whit-background-color);
 }
 
 .bg-blue-400{
     padding: 8px 12px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    color:white;
-    background-color: rgb(46, 46, 237);
-    border: 1px solid blue;
+    margin: 0px;
+    color: var(--whit-background-color);
+    background-color: var(--dark-blue-color);
+    border: 1px solid var(--dark-blue-color);
     border-radius: 3px;
     
 
 }
 .bg1-blue-400{
     padding: 8px 12px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    color: blue;
-    background-color: white;
-    border: 1px solid blue;
+    margin: 0;
+    color: var(--dark-blue-color);
+    background-color: var(--whit-background-color);
+    border: 1px solid var(--dark-blue-color);
     border-radius: 3px;
 
 }
 .nav-container{
     background-color: rgb(221, 221, 248);
-     height:50px;
+    height:50px;
 
 }
 
@@ -113,16 +112,20 @@
     font-size: 18px;
     gap: 20px;
 }
- li{
+
+li{
     list-style: none;
 }
 
 /* Pricing Style */
 
-.pricing {
-    background-color: #F9FBFE; 
+.pricing-1{
+    background-color: var(--background-color);
     padding: 40px 150px;
-    /* background-image: url("https://w3assets.angelone.in/wp-content/uploads/2022/08/section-background.png"); */
+    background-image: url("https://w3assets.angelone.in/wp-content/uploads/2022/08/section-background.png");
+}
+.pricing {
+    padding: 40px 150px;
     
 }
 
@@ -139,13 +142,12 @@
 }
 .pricing-item > p {
     color: #2A394E;
-    font-family: 'Barlow', sans-serif;
     text-align: center;
     font-size: 20px;
 }
 
 .pricing-item > h3 {
-    color:#2A394E
+    color: #2A394E;
     
 }
 
@@ -155,7 +157,6 @@
     background-image: url("https://w3assets.angelone.in/wp-content/uploads/2022/08/section-background.png");
 }
 .transaction > h1 {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     font-size: 40px;
 }
@@ -176,12 +177,11 @@
 
 .form{
     padding:30px;
-    background-color: white;
+    background-color: Var(--whit-background-color);
     border-radius: 5px;
 }
 
 .form > p {
-    font-family: 'Barlow', sans-serif;
     text-align: center;
     font-size: 24px;;
 }
@@ -193,15 +193,24 @@
     padding:15px
 }
 
+.input-field:hover {
+    
+}
+
 .button{
-    background-color: #3f5bd9;
-    color:white;
+    background-color: var(--dark-blue-color);
+    color: var(--whit-background-color);
     padding : 5px;
     border-radius: 5px;
     padding-left: 20px;
     padding-right: 20px;
     width: 17vw;
     border: none;
+}
+
+.button:hover {
+    opacity: 0.6;
+    transition: all .125s ease-in-out;
 }
 
 .form > form{
@@ -215,19 +224,33 @@
     display: flex;
     flex-direction: row;
     list-style: none;
-    gap: 50px;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
-    color:#2A394E;
-    font-family: 'Barlow', sans-serif;
-    
+    color: #777D87;
+    display: flex;
+    gap: 32px;
+    white-space: nowrap;
+    overflow-x: auto;
+    padding-bottom: 4px;
+    margin-left: -40px;
+}
+
+.table-items li:hover {
+    color: var(--dark-blue-color);
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 600;
 }
 
 table{
     /* border: 1px solid gray; */
     border-radius: 5px;
     padding: 10px;
+}
+
+tr:nth-child(even){
+    background-color: var(--background-color);
 }
 
 td{
@@ -237,47 +260,53 @@ td{
 table, th, td {
     border: 1px solid gray;
     border-collapse: collapse;
-  }
-  
+}
+
   /* Calculate section styles */
 
-  .calculate{
+.calculate{
     height: 200px;
     width: 100%;
-    background-color: #f9fbfe;
+    background-color: var(--background-color);
     border: 1px solid gray;
     border-radius: 5px;
     padding: 5px;
-  }
-  .calculate>p{
+}
+.calculate>p{
     text-align: center;
     margin: 35px;
     font-size: 28px;
     font-weight: 700;
-    font-family: 'Barlow', sans-serif;
-  }
-  .calculate-link{
+}
+.calculate-link{
     display: flex;
     justify-content:center;
     gap:50px
-  }
-  .outlink{
-    border:1px solid #3F5BD9;
+}
+
+.outlink{
+    border:1px solid var(--dark-blue-color);
     padding: 10px 15px;
-    background: #FFFFFF;
+    background: var(--whit-background-color);
     border-radius: 4px;
-    color: #3F5BD9 ;
+    color: var(--dark-blue-color) ;
     
-  }
+}
+
+.outlink:hover {
+    opacity: 1;
+    transition: all 0.125s ease-in-out;
+    background-color: var(--background-color);
+}
 
 
 /* Investment section styles */
 
-  .investment {
+.investment {
     background-image: url("https://w3assets.angelone.in/wp-content/uploads/2022/08/section-background.png");
     height: 200px;
     width: 100%;
-    background-color: #f9fbfe;
+    background-color: var(--background-color);
     border: 1px solid gray;
     border-radius: 5px;
     padding: 5px;
@@ -291,8 +320,8 @@ table, th, td {
     margin-bottom: 0px;
     font-size: 28px;
     font-weight: 700;
-    font-family: 'Barlow', sans-serif;
 }
+
 .investment-content{
     padding: 0px 220px;
 }
@@ -301,20 +330,30 @@ table, th, td {
     margin: auto;
     padding: 15px;
     border-radius: 4px;
-    background-color: #3F5BD9;
-    color: #fff;
+    background-color: var(--dark-blue-color);
+    color: var(--whit-background-color);
     border: 1px;
     font-weight: 600;
     font-size: 14px;
 }
+
+.investment-button:hover {
+    opacity: 0.6;
+    transition: all .125s ease-in-out;
+}
+
 .angle{
-    color: #3F5BD9;
+    color: var(--dark-blue-color);
 }
 .one{
     color: #FF7300;
 }
-.list-item{
+.notes .list-item{
     line-height: 50px;
+    list-style-type: disc;
+    color: #333333;
+    font-size: 16px;
+
 }
 
 /* Accordion styles */
@@ -324,11 +363,9 @@ table, th, td {
     justify-content: space-between;
     margin-bottom: 10px;
     border-bottom: 1px solid #E0E0EC;
-    padding: 5px 30px;
     flex-direction: column;
     justify-content: space-evenly;
     text-align: left;
-    flex-wrap: wrap;
 
 }
 
@@ -340,15 +377,24 @@ table, th, td {
 } 
 
 .section .content {
-    background-color: #ffffff;
+    background-color: var(--whit-background-color);
     font-family : 'Barlow (woff2)', sans-serif;
     font-size: 14px;
     color: #333333;
 }
 
+.section .content ul li {
+    list-style-type: disc;
+}
+
+
 .section label {
-    font-family: 'Barlow', sans-serif;
     font-size: 18px;
+    padding: 16px 20px;
+    line-height: 27px;
+    font-weight: 600;
+    background-color: #fafafa;
+    color: #333333;
 }
 
 .title {
@@ -389,6 +435,7 @@ input:checked + .title + .content {
 }
 
 .app_img img {
-    width: 71rem;
-} 
 
+    width: 70rem;
+    border-radius: 10px;
+}

@@ -1,0 +1,97 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif ;
+   
+}
+body{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+.bold{
+  font-size: 35px;
+}
+
+.bold-2{
+    font-size: 25px;
+    
+
+
+}
+.container{
+    margin: 100px;
+    max-width: 1180px;
+}
+.end{
+    text-align: right;
+    text-decoration: none;
+}
+
+
+img{
+    max-width: 250px;
+    float: left;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+
+
+.barlow{
+    font-family: barlow;
+}
+
+.form{
+    width: 240px;
+    height: 360px;
+    background-color: transparent;
+    position: absolute;
+    top: -100px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+    border-color: gray;
+
+}
+
+.select{
+    text-align: center;
+    width: 100px;
+}
+
+.big-box{
+    background-color: blue;
+    width: 80%;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+
+}
+.big-box img{
+    width: 400px;
+    height: 300px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+   
+    
+}
+
+.img-text span{
+    color:#ffc902;
+    
+    font-weight: 700;
+    
+}
+.number{
+    text-align: start;
+}

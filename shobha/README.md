@@ -43,7 +43,7 @@ Meet the amazing team behind AngelOne:
 The project structure is organized as follows:
 
 - **Home Page (Captain)**
-  - [https://www.angelone.in/ **the official page** (index.html GitHub page.)]
+  - [https://shobharathor.github.io/TeamProject/shobha/index.html]
 
 ## Contributing
 

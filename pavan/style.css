@@ -23,6 +23,10 @@ font-family: 'Raleway', sans-serif;
     background-color: 3f5bd9;
     height:2rem ;
 }
+*{
+    font-size: 1rem;
+    font: weight 400px; 
+}
 html{
     font: size 62.5%; ;
 }
@@ -36,13 +40,33 @@ rgba(0, 0, 0, 0);
     font-weight: 400;
     font-size: 1rem;
     font-family: ;
-    padding-bottom: 1rem;
+    padding: 2rem;
 }
 .home p{
     color:
 rgb(51, 51, 51);
-
+.content{
+    padding:4rem ;
 }
+.content li{
+    display: flex;
+}
+.anchor li{
+    display: flex;
+    flex-direction: row;
+}
+}
+.header{
+    /* margin:4rem 2rem; */
+}
+.home-align{
+
+    /* padding-bottom: 3rem; */
+}
+/* .home{
+    display: flex;
+
+} */
 *{
     margin: 0;
     padding: 0;
@@ -85,6 +109,9 @@ li{
 .home li{
     padding
 }
+/* .card-cotainer{
+    height: 1rem; */
+
 .header{
     padding-left:1rem ;
     padding-top:1rem ;
@@ -250,6 +277,7 @@ nav{
     list-style: none;
 }
 .card-container{
+    height:100% ;
     margin-bottom:2rem ;
     width:100%; 
     display: flex;
@@ -260,18 +288,23 @@ nav{
     
 }
 .card-items{
+    display: inline;
     text-align: center;
-    padding:1rem ;
+    /* padding:1rem ; */
     /* display: flex; */
     border:0.1rem solid black;
     border-radius:0.7rem ;
-    width:10rem ;
+    width:7rem ;
+    box-sizing: border-box;
+    /* height:8rem; */
+    /* height:14rem ; */
     cursor: pointer;
 }
 .card-items:hover{
     text-shadow: 0px 0px blue;
     color:blue ;
     opacity:0.5rem ;
+    background-color:whitesmoke ;
 }
 .card-container img{
     
@@ -301,6 +334,12 @@ nav{
 }
 .promo{
     margin: 3rem ;
+    width:100% ;
+}
+.app-images{
+    display: flex;
+     margin:2rem ;
+     margin-right:2rem ; 
 }
 .promo-info{
     position: relative;
@@ -345,6 +384,7 @@ footer {
     --sub-heading-color: #333333;
 } */
 .main-right form {
+    border-radius: 10rem;
     border: none;
     display: flex;
     flex-direction: column;
@@ -352,10 +392,29 @@ footer {
     gap: 1.8rem;
     padding: 2rem 1rem;
     width: 100%;
-    height: 300px;
+    height: 500px;
     background-color: white;
     border-radius: 0.5rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.bt{
+    padding:1rem 1rem ;
+    height: 5rem;
+    width:20rem;
+}
+.up-text{
+    padding: 1rem;
+    text-align: center;
+}
+.promo button{
+    height:2rem ;
+    width: 8rem;
+    color: #ffffff;
+    background-color: #3f5bd9;
+    
+}
+.promo form{
+    width:40rem ;
 }
 * {
     margin: 0;

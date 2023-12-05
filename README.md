@@ -28,7 +28,11 @@ Meet the amazing team behind AngelOne:
 
 -**Anubhav**
   - *Role:* [collaborator]
-  - *GitHub:* [Anubhavsrivastava23]  
+  - *GitHub:* [Anubhavsrivastava23]
+    
+  - ##karnati pavanteja##
+  - *Role:*[collabarator]
+  - *GitHub:*[karnati pavanteja]
 
 ## Getting Started
 

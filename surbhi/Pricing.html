@@ -4,48 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AngleOnr Pricing Page</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icons" href="style.css" />
+    <link rel="stylesheet" href="Pricing.css" />
+    <!-- <link rel="icons" href="style.css" /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <!-- Main content container -->
     <main>
-        <section class="header">
+        <!-- Header section -->
+        <!-- <section class="header">
             <div class="navbar">
-                    <div class="logo-section">
-                     <a href="https://www.angelone.in/" rel="home" id="logo" title="Angel One - Share Market Trading">
-                     <img src="https://w3assets.angelone.in/wp-content/uploads/2023/08/AO-R-Logo.png?v2" alt="Angel One - Share Market Trading and Stock Broking" title="Angel One - Share Market Trading" width="192px" height="57px" style="max-width:192px">
-                     </a>
-                     </div>
-                     <div class="search-container">
-                         <input type="text" class="search-input" placeholder="Search Stocks, News, Reports...">
-                         <img src="images/search.svg" alt="Search Icon" class="search-icon">
-                       </div>
-                      <div class="btn1">
-                       <button class="bg-blue-400"><strong>Open Demat Account</strong></button>
-                       </div>
-                       <div class="btn2">
-                       <button class="bg1-blue-400"><strong>Login</strong></button>
-                         </div>
-                <div class="nav-container">
-                    <ul>
-                        <li>Trade & Invest</li>
-                        <li>Mutual Funds & SIPs</li>
-                        <li>Learn</li>
-                        <li>Products</li>
-                        <li>Become a Partner</li>
-                        <li>Pricing</li>
-                        <li>Support</li>
-                        <li>Live Blog</li>
-                    </ul>
-            </div>
-            </div>
-        </section>
+                <div class="logo-section">
+                <img src="https://w3assets.angelone.in/wp-content/uploads/2023/08/AO-R-Logo.png?v2" alt="Angel One - Share Market Trading and Stock Broking" title="Angel One - Share Market Trading" width="192px" height="57px" style="max-width:192px">
+                </div>
 
-        <section class="pricing">
+               <div class="search-container">
+        <input type="text" class="search-input" placeholder="           Search Stocks, News, Reports...">
+            <img src="images/search1.png" alt="Search Icon" class="search-icon">
+                  </div>  
+
+            <div class="button">
+                  <button class="bg-blue-400"><strong>Open Demat Account</strong></button>
+                  <button class="bg1-blue-400"><strong>Login</strong></button>
+                  </div>         
+            </div>
+        </section> -->
+
+        <!-- Pricing section -->
+
+        <section class="pricing-1">
             <div class="transaction">
                 <p><a style="text-decoration: none" href="">Home</a> > Exchange Transaction Charges</p>
                 <h1>Transaction Charges</h1>
@@ -76,24 +66,26 @@
                             </p>
                         </div>
                     </div>
+                    <div class="form">
+                        <p class="title-trade">Trade more, pay less</p>
+                        <form>
+                            <input class="input-field" type="text" name="name" placeholder="Enter Full Name" required/>
+                            <input class="input-field" type="text" name="phone" placeholder="Enter Mobile Number" />
+                            <select class="input-field" name="Plane">
+                                <option value="none" selected disabled hidden>Select city</option>
+                                <option value="Delhi">Delhi</option>
+                                <option value="Lucknow">Lucknow</option>
+                                <option value="Noida">Noida</option>
+                            </select>
+                            <button class="button" type="submit">GET FREE DEMAT ACCOUNT</button>
+                        </form>
+                    </div>
 
-                </div>
-                <div class="form">
-                    <p class="title-trade">Trade more, pay less</p>
-                    <form>
-                        <input class="input-field" type="text" name="name" placeholder="Enter Full Name" required/>
-                        <input class="input-field" type="text" name="phone" placeholder="Enter Mobile Number" />
-                        <select class="input-field" name="Plane">
-                            <option disabled selected>Select city</option>
-                            <option value="Delhi">Delhi</option>
-                            <option value="Lucknow">Lucknow</option>
-                            <option value="Noida">Noida</option>
-                        </select>
-                        <button class="button" type="submit">GET FREE DEMAT ACCOUNT</button>
-                    </form>
                 </div>
             </div>
+        </section>
 
+        <section class="pricing">
             <div class="table-container-equity">
                 <div class="table-nav">
                     <ul class="table-items">
@@ -105,7 +97,7 @@
                 </div>
 
                 <div class="table-content">
-                    <table>
+                    <table >
                         <tr>
                             <th></th>
                             <th>Stock Investments</th>
@@ -113,11 +105,14 @@
                             <th>Futures & Options</th>
                         </tr>
                         <tr>
-                            <td>Brokerage</td>
-                            <td>₹0</td>
-                            <td>₹0 brokerage upto ₹500 for first 30 days*
+                            <td class="point">
+                                <strong>Brokerage</strong>
+                                <img src="images/tablepic-info.svg">
+                            </td>
+                            <td class="description">₹0</td>
+                            <td class="description">₹0 brokerage upto ₹500 for first 30 days*
                                 Then, lower of ₹20 or 0.03% per executed order</td>
-                            <td>₹0 brokerage upto ₹500 for first 30 days*
+                            <td class="description">₹0 brokerage upto ₹500 for first 30 days*
                                 Then, ₹20 per executed order</td>
                         </tr>
                     </table>
@@ -141,7 +136,7 @@
             <div class="table-container-charges">
                 <div class="table-charges">
                     <table>
-                        <h1>Regulatory & Statutory Charges</h1>
+                        <h2>Regulatory & Statutory Charges</h2>
                         <tr>
                             <th></th>
                             <th>Stock Investments</th>
@@ -150,7 +145,9 @@
                             <th>Options</th>
                         </tr>
                         <tr>
-                            <td>Transaction Charges</td>
+                            <td class="tablepic">Transaction Charges
+                                <img src="images/tablepic-info.svg">
+                            </td>
                             <td>NSE: 0.00325%<br>
                                 NSE#: 0.00325%<br>
                                 BSE*: As Per The Stock Group<br>
@@ -170,14 +167,18 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Demat Transaction / DP Charges</td>
+                            <td class="tablepic">Demat Transaction / DP Charges
+                                <img src="images/tablepic-info.svg">
+                            </td>
                             <td>₹20 + GST / Company Sell</td>
                             <td>₹0</td>
                             <td>₹0</td>
                             <td>₹0</td>
                         </tr>
                         <tr>
-                            <td>STT (Securities Transaction Tax)</td>
+                            <td class="tablepic">STT (Securities Transaction Tax)
+                                <img src="images/tablepic-info.svg">
+                            </td>
                             <td>0.1%<br>
                                 BUY SELL</td>
                             <td>0.025%<br>
@@ -190,14 +191,18 @@
                                 SELL</td>
                         </tr>
                         <tr>
-                            <td>GST**</td>
+                            <td class="tablepic">GST**
+                                <img src="images/tablepic-info.svg">
+                            </td>
                             <td>18%</td>
                             <td>18%</td>
                             <td>18%</td>
                             <td>18%</td>
                         </tr>
                         <tr>
-                            <td>Stamp Duty Charges</td>
+                            <td class="tablepic">Stamp Duty Charges
+                                <img src="images/tablepic-info.svg">
+                            </td>
                             <td>0.1%<br>
                                 BUY</td>
                             <td>0.025%<br>
@@ -210,14 +215,18 @@
                                 BUY</td>
                         </tr>
                         <tr>
-                            <td>SEBI Charges</td>
+                            <td class="tablepic">SEBI Charges
+                                <img src="images/tablepic-info.svg">
+                            </td>
                             <td>₹ 10/ crore</td>
                             <td>₹ 10/ crore</td>
                             <td>₹ 10/ crore</td>
                             <td>₹ 10/ crore</td>
                         </tr>
                         <tr>
-                            <td>Clearing Charges</td>
+                            <td class="tablepic">Clearing Charges
+                                <img src="images/tablepic-info.svg">
+                            </td>
                             <td>₹0</td>
                             <td>₹0</td>
                             <td>₹0</td>
@@ -235,7 +244,7 @@
             </div>
 
             <div class="table-container-bse">
-                <h1>*BSE Transaction Charges</h1>
+                <h2>*BSE Transaction Charges</h2>
                 <div class="table-content">
                     <table width="100%">
                         <tr>
@@ -267,7 +276,7 @@
             </div>
 
             <div class="table-container-nontrade">
-                <h1>Non Trade Charges</h1>
+                <h2>Non Trade Charges</h2>
                 <div class="table-content">
                     <table width="100%">
                         <tr>
@@ -292,7 +301,7 @@
             </div>
 
             <div class="table-container-nri">
-                <h1>NRI Brokerage Charges</h1>
+                <h2>NRI Brokerage Charges</h2>
                 <div class="table-content">
                     <table width="100%">
                         <tr>
@@ -301,11 +310,11 @@
                         </tr>
                     </table>
                 </div>
-                <p>Find more detail about NRI brokerage charges here.</p>
+                <p><i>Find more detail about NRI brokerage charges <span class="click">here</span>.</i></p>
             </div>
 
             <div class="table-container-nri-nontrading">
-                <h1>NRI Non-trading charges</h1>
+                <h2>NRI Non-trading charges</h2>
                 <div class="table-content">
                     <table width="100%">
                         <tr>
@@ -355,7 +364,7 @@
             </div>
 
             <div class="notes">
-                <h1>Notes</h1>
+                <h2>Notes</h2>
                 <ul class="list">
                     <li class="list-item">Brokerage is levied per executed order across all segments.</li>
                     <li class="list-item">Order value for options is calculated as ( strike + premium ) x lot size. Brokerage is also charged on expired, exercised and assigned Options contract.</li>
@@ -365,9 +374,9 @@
                 </ul>
             </div>
 
-            <div class="accordion">
+            <div class="faqs_accordion">
                 <div class="accordion_text">
-                    <h3>FAQs</h3>
+                    <h2>FAQs</h2>
                 <div class="section">
                     <input class="radio" type="radio" name="section" id="section1" checked>
                     <label class="title" for="section1">What is the account opening charge at Angel One?<span>&#x3e;</span></label>
@@ -440,13 +449,197 @@
                         <p>The brokerage charges for intraday trading in Angel One are either a flat rate of Rs. 20 per transaction or 0.25% of turnover, whichever is lower.</p>
                     </div>
                 </div>
-            </div>
-                <div class="app_img">
-                    <img src="./images/lastimage.png" alt="Download App" loading="lazy" />
                 </div>
             </div>
+            <div class="app_img">
+                <img src="./images/lastimage.png" alt="Download App" loading="lazy" />
+            </div>
         </section>
-        <section class="footer">
+
+        <!-- Footer section -->
+
+        <section class="footer_1">
+                <div class="footer">
+                <div class="footerimg">
+                    <img src="images/angelone-white-logo.svg">
+                
+                <div class="footer-about">
+                    <h1 class="footer-about">About Us</h1>
+                    <p>Trusted by over 1.75 Cr+ clients, Angel One is one of India’s leading retail full-service broking houses.
+                         We offer a wide range of innovative services, including online trading and investing, advisory, margin trading facility, algorithmic trading, smart orders, etc. Our Super App is a powerhouse of cutting-edge tools such as basket orders, GTT orders, SmartAPI, advanced charts and others that help you navigate capital markets like a pro.</p>
+                 </div>
+                </div>
+            
+                 <div class="footer-grid">
+                    <div class="grid-item1">
+                    <p>COMPANY OVERVIEW</p>
+                    <ul>
+                        <li>Open Demat Account</li>
+                        <li>Brokerage & Other Charges</li>
+                        <li>Contact Us</li>
+                        <li>In the Media</li>
+                        <li>Investor Relations</li>
+                        <li>Webinars</li>
+                        <li>Careers</li>
+                    </ul>
+                    </div>
+                    <div class="grid-item1">
+                       <p>INVESTMENT OPTIONS</p>
+                       <ul>
+                        <li>Stocks</li>
+                        <li>Upcoming IPO</li>
+                        <li>Futures</li>
+                        <li>Options</li>
+                        <li>Mutual Funds</li>
+                        <li>US Stocks</li>
+                        <li>ETF</li>
+                        <li>Currencies</li>
+                        <li>Commodities</li>
+                        <li>NCD</li>
+                        <li>Corporate Bonds</li>
+                        <li>Tax Free Bonds</li>
+                        <li>54EC bonds</li>
+                        <li>Sovereign Gold Bond</li>
+                        <li>Tax Saving Bonds</li>
+                    </ul>
+                    </div>
+                    <div class="grid-item1">
+                        <p>CALCULATORS</p>
+                       <ul>
+                        <li>Brokerage Calculator</li>
+                        <li>Margin Calculator</li>
+                        <li>CAGR Calculator</li>
+                        <li>Dividend Yield Calculator</li>
+                        <li>SIP Calculator</li>
+                        <li>Lumpsum Calculator</li>
+                        <li>Future Value Calculator</li>
+                        <li>Compound Interest Rate Calculator</li>
+                        <li>FD Calculator</li>
+                        <li>RD Calculator</li>
+                        <li>Present Value Calculator</li>
+                        <li>EBITDA Calculator</li>
+                       </ul>
+                    </div>
+                    <div class="grid-item1">
+                        <p>KNOWLEDGE CENTER</p>
+                        <ul>
+                         <li>Demat Account</li>
+                         <li>Trading Account</li>
+                         <li>Online Share Trading</li>
+                         <li>Intraday Trading</li>
+                         <li>Share Market</li>
+                         <li>IPO</li>
+                         <li>Derivatives</li>
+                         <li>Commodities Trading</li>
+                         <li>Futures and Options Trading</li>
+                         <li>Income tax</li>
+                         <li>Mutual Funds</li>
+                         <li>Cryptocurrency</li>
+                         <li>Analyst Corner</li>
+                        </ul>
+                    </div>
+                    
+                    <!-- Row 2 -->
+                    <div class="grid-item1">
+                        <p>LEARN TO EARN</p>
+                        <ul>
+                         <li>Knowledge Center</li>
+                         <li>Smart Money</li>
+                         <li>Blog</li>
+                         <li>Fundamental Research</li>
+                         <li>Technical Research</li>
+                         <li>Company Reports</li>
+                         <li>Angel One - Community</li>
+                         <li>Be Vigilant - Jagruk Tejabhai</li>
+                         </ul>
+                    </div>
+                    <div class="grid-item1">
+                        <p>BECOME A PARTNER</p>
+                        <ul>
+                         <li>Become Business Partner</li>
+                         <li>Who is an Authorised person</li>
+                         <li>Authorised Person Income</li>
+                         <li>Eligibility & Documents Required</li>
+                         <li>Authorised Person Business Model</li>
+                         <li>Authorised Person App & NXT platform</li>
+                         <li>Authorised Person Details</li>
+                         
+                         </ul>
+                        </div>
+                    <div class="grid-item1">
+                        <p>MARKET OUTLOOK</p>
+                        <ul>
+                         <li>Share Market</li>
+                         <li>Announcements</li>
+                         <li>Share Market Holidays 2023</li>
+                         <li>Share Market Glossary</li>
+                         <li>52-week High</li>
+                         <li>52-week Low</li>
+                         <li>Top Gainers</li>
+                         <li>Top Losers</li>
+                         </ul>
+                    </div>
+                    <div class="grid-item1">
+                        <p>UPCOMING IPO</p>
+                        <ul>
+                         <li>OLA Cabs IPO</li>
+                         <li>Oyo IPO</li>
+                         <li>MobiKwik IPO</li>
+                         <li>Pharmeasy IPO</li>
+                         </ul>
+            
+                    </div>
+                 </div>
+            </div>
+            
+            </section>
+                      
+            <section class="section12">
+                <div class="footersection-2">
+                    <div class="ftsec2">
+                        <p>CUSTOMER SUPPORT :</p>
+                        <div class="customer">
+                            <img src="images/svg-phone.svg" width="16" height="16">
+                            <p>18001020</p>
+                        </div>
+                        <div class="spport">
+                            <img src="images/svg-chat.svg" width="16" height="16"> 
+                            <p>Support FAQs</p>  
+                        </div>
+                    </div>
+                </div>
+            
+              
+              <div class="footersectionpart-2">
+                    <div class="ftsecpart2">
+                    <p>FOLLOW US :</p>
+                    <div class="customerpart-2">
+                    <img src="images/linkedIn_icon.svg" height="25px">
+                    <img src="images/facebook_icon.svg" height="25px">
+                    <img src="images/youtube_icon.svg" height="25px">
+                    <img src="images/twitter_icon.svg" height="25px">
+                    <img src="images/instagram_icon.svg" height="25px">
+                    <img src="images/google-news-icon.svg" height="25px">
+                    </div>
+                    
+                    </div>
+                </div>
+            </section>
+                    
+            <section class="section13">
+                <div class="footerpart-3">
+             <div  class="footerpartstyle">      
+            <p>OTHER LINKS :&emsp;Angel One APP&emsp;|&emsp;Angel One Trade&emsp;|&emsp;Angel SpeedPro&emsp;|&emsp;Margin Trading Facility&emsp;|&emsp;Smart API</p>
+            
+            <p>PARTNERS :&emsp;Sensibull&emsp;|&emsp;Smallcase&emsp;|&emsp;Streak&emsp;|&emsp;Vested&emsp;|&emsp;TradingView</p>
+            
+            <p>INDICES :&emsp;Nifty 50&emsp;|&emsp;Nifty Bank&emsp;|&emsp;Nifty Financial Services&emsp;|&emsp;Nifty Next 50&emsp;|&emsp;Nifty Midcap 100&emsp;|&emsp;BSE Sensex&emsp;|&emsp;India Vix</p>
+            <p>STOCKS :&emsp;A&emsp;|&emsp;B&emsp;|&emsp;C&emsp;|&emsp;D&emsp;|&emsp;E&emsp;|&emsp;F&emsp;|&emsp;G&emsp;|&emsp;H&emsp;|&emsp;I&emsp;|&emsp;J&emsp;|&emsp;K&emsp;|&emsp;L&emsp;|&emsp;M&emsp;|&emsp;N&emsp;|&emsp;O&emsp;|&emsp;P&emsp;|&emsp;Q&emsp;|&emsp;R&emsp;|&emsp;S&emsp;|&emsp;T&emsp;|&emsp;U&emsp;|&emsp;V&emsp;|&emsp;W&emsp;|&emsp;X&emsp;|&emsp;Y&emsp;|&emsp;Z</p>
+            <p>US STOCKS :                &emsp;A&emsp;|&emsp;B&emsp;|&emsp;C&emsp;|&emsp;D&emsp;|&emsp;E&emsp;|&emsp;F&emsp;|&emsp;G&emsp;|&emsp;H&emsp;|&emsp;I&emsp;|&emsp;J&emsp;|&emsp;K&emsp;|&emsp;L&emsp;|&emsp;M&emsp;|&emsp;N&emsp;|&emsp;O&emsp;|&emsp;P&emsp;|&emsp;Q&emsp;|&emsp;R&emsp;|&emsp;S&emsp;|&emsp;T&emsp;|&emsp;U&emsp;|&emsp;V&emsp;|&emsp;W&emsp;|&emsp;X&emsp;|&emsp;Y&emsp;|&emsp;Z</p>
+            <p>US ETFS :                &emsp;A&emsp;|&emsp;B&emsp;|&emsp;C&emsp;|&emsp;D&emsp;|&emsp;E&emsp;|&emsp;F&emsp;|&emsp;G&emsp;|&emsp;H&emsp;|&emsp;I&emsp;|&emsp;J&emsp;|&emsp;K&emsp;|&emsp;L&emsp;|&emsp;M&emsp;|&emsp;N&emsp;|&emsp;O&emsp;|&emsp;P&emsp;|&emsp;Q&emsp;|&emsp;R&emsp;|&emsp;S&emsp;|&emsp;T&emsp;|&emsp;U&emsp;|&emsp;V&emsp;|&emsp;W&emsp;|&emsp;X&emsp;|&emsp;Y&emsp;|&emsp;Z</p>
+            
+            </div>
+            </div>
         </section>
 
     </main>

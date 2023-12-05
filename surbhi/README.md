@@ -1,6 +1,5 @@
-# AngleOne_Pricing
-AngelOne Pricing Page
-Description
+# AngleOne_Pricing Page
+
 This repository contains the HTML code for the pricing page of the AngelOne website. The page is designed to showcase various pricing details and information related to trading and investment services offered by AngelOne.
 
 Table of Contents

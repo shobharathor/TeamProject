@@ -1052,6 +1052,9 @@ footer .right p {
 
 
 @media screen and (max-width: 376px) {
+  .hero .anchors a {
+    display: none;
+  }
   .hero .main-right form {
       padding: 2rem 1rem;
       width: 100%;
@@ -1097,7 +1100,7 @@ footer .right p {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
-  .eligibility h2 {
+  .eligibility .container .top .center h2 {
     text-align: left;
   }
   .eligibility .container .top .left, .eligibility .container .top .right {
@@ -1109,6 +1112,9 @@ footer .right p {
   }
   .eligibility .container .top .center a {
     margin-bottom: 0.5rem;
+  }
+  .eligibility .container .bottom .card {
+    width: 100%;
   }
 
   .on-boarding {
@@ -1142,11 +1148,32 @@ footer .right p {
   .testimonial .bottom .right {
       flex-direction: column;
   }
-  .testimonial .bottom .right .card {
+  .testimonial .container .bottom .right .card {
       width: 100%;
+  }
+  .connect-with-us {
+    padding: 1rem 0.5rem;
+    margin-bottom: 2rem;
+  }
+  .connect-with-us p {
+    text-align: center;
+  }
+  .connect-with-us .contain div {
+    top: 1rem;
+    left: 0;
+    padding: 1rem;
   }
   footer {
       flex-direction: column;
+      align-items: center;
   }
+  footer .center img {
+    width: 10rem;
+    margin-left: 0;
+  }
+  footer .left {
+    gap: 0.7rem;
+  }
+
 }
 

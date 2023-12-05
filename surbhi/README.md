@@ -1,2 +1,1 @@
-# AngleOne_Pricing
-Making a AngleOne Pricing page for geekathon 
+# AngleOne_Pricing Page

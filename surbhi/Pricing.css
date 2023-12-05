@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 :root {
 --font-family: 'Barlow (woff2)', sans-serif;
@@ -20,6 +25,14 @@ max-width: 100%;
 display: flex;
 justify-content: space-around;
 align-items: center;
+background-color: var(--whit-background-color);
+position: fixed;
+width: 100%;
+
+}
+
+.nav-container .mobile-menu {
+    display: none;
 }
 
 .logo-section img {
@@ -84,27 +97,38 @@ margin-left: 10px;
 
 .nav-container{
     background-color: #e3ebf6;;
-      height:50px;
-      display:flex;
-      justify-content: center;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    margin-top: 4rem;
     
  }
+
+ /* .fixed_container {
+
+    position: fixed;
+    padding-top: -2px;
+    padding-bottom: -11px;
+    padding-left: 10px;
+    padding-right:10px;
+    width: 100%;
+ } */
  
  .nav-container ul{
-     width: 100%;
-     display:flex;
-     justify-content: start;
-     gap: 32px;
-     margin-left: 7rem;
-    
-     
- }
-  .li{
+    width: 100%;
+    display:flex;
+    gap: 32px;
+    margin-left: 7rem; 
+}
+
+.li{
      list-style: none;
      color:black;
      font-size: larger;
     
- }
+}
 
  /* Styling For Pricing */
 
@@ -144,7 +168,9 @@ color: #2A394E;
 
 .transaction{ 
 background-image: url("https://w3assets.angelone.in/wp-content/uploads/2022/08/section-background.png");
+margin-top: 7rem;
 }
+
 .transaction > h2 {
 font-weight: 700;
 font-size: 40px;
@@ -257,6 +283,7 @@ border-style: none;
     display: flex;
     align-items: center;
     gap: 40px;
+    border: none;
 }
 
 .table-charges img {
@@ -293,10 +320,11 @@ font-size: 14px;
 }
 
 table td {
-color: #000000;
+color: #444444;
 font-family: Helvetica;
 font-size: 16px;
 font-weight: 400;
+font-family: 'Barlow';
 }
 
 .table-content p {
@@ -563,7 +591,7 @@ display: block;
 
 .app_img img {
 
-width: 70rem;
+width: 71rem;
 border-radius: 10px;
 }
 
@@ -762,31 +790,45 @@ margin-left: 10rem;
 }
 
 @media screen and (max-width: 1024px){
+
+    .logo-section img {
+        margin-left: 2rem;
+    }
     
 .navbar {
     width: 100%;
-    margin-left: 16rem;
+    margin-left: 5rem;
     justify-content: space-between;
 }
-
 
 .nav-container{
     margin-right: -11px;
     padding: 10px 150px;
     width: 100%;
-         }
+}
 
 .nav-container ul{
     gap:3rem;
-     }
+}
 
- .bg-blue-400 {
+.search-input {
+        margin-right: -5rem;
+}
+
+.button-1 {
+        margin-right: 10rem;
+}
+
+.bg-blue-400 {
     margin-right: 2rem;
-     }
+}
 .bg1-blue-400 {
-    padding: 15px 48px;
-  }
+    padding: 15px 38px;
+}
 
+.transaction {
+    margin-top: 10rem;
+}
 
 .app_img img {
     max-width: 100%;
@@ -806,4 +848,91 @@ margin-left: 10rem;
 
 @media screen and (max-width: 768px){
 
+    .navbar {
+        width: 100%;
+        margin-left: 10rem;
+        justify-content: space-between;
+    }
+
+    .logo-section {
+        margin-left: -8rem;
+    }
+
+    .button-1 {
+        margin-right: 11rem;
+    }
+
+    .bg1-blue-400 {
+        padding: 15px 41px;
+        margin-right: 0rem;
+    }
+
+    .search-input {
+        margin-right: -1rem;
+    }
+
+    .bg-blue-400 {
+        margin-right: 0rem;
+    }
+
+    .nav-container ul{
+        margin-left: -3rem;
+        gap: 2rem;
+        }
+
+    .nav-container, .pricing-1, .pricing, .footer  {
+        padding: 10px 167px;
+    }
+
+    .footer_1, .section12, .section13 {
+        margin-right: -21rem;
+        flex-direction: row-reverse;
+    }
+
+    .ftsec2 {
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        margin-left: -30rem;
+    }
+
+    .ftsecpart2 {
+        flex-direction: column;
+    }
+
+    .customerpart-2 {
+        margin-left: -3px;
+    }
+
+}    
+
+    @media screen and (max-width: 425px) {
+
+        .nav-container ul {
+            position: relative;
+            left: -13rem;
+            gap: 1rem;
+
+        }
+
+        .button-1 {
+            margin-right: 17rem;
+        }
+
+        .search-input {
+            width: 11rem;
+        }
+
+        .nav-container, .pricing-1, .pricing,{
+            padding: 0.5rem 19rem;
+    }
+
+    .investment-content {
+
+        padding: -1px 220px
+    }
+
+    .footer {
+        padding: 0.5rem 19rem;
+    }
 }

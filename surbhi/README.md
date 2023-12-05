@@ -34,10 +34,8 @@ This repository contains the HTML and CSS code for the AngelOne Pricing Page, sh
       ```
   ### Usage
   
-  1. Open the `index.html` file in your preferred web browser:
-  
-     ```bash
-     open index.html
+  Feel free to use this code as a reference or integrate it into your project. Customize the styles and content according to your specific 
+  requirements.
 
 ## Features
 
@@ -65,7 +63,7 @@ The project structure is organized as follows:
 
 ## Contributing
 
-We welcome contributions! If you'd like to contribute to AngelOne, please follow these guidelines: [Link to contribution guidelines].
+We welcome contributions! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
 ## License
 

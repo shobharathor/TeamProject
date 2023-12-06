@@ -43,17 +43,23 @@ Meet the amazing team behind AngelOne:
   1. there are 13 sections on the home page, including a footer and a header.
   2. Two sections utilize a grid layout, and one section is designed in the form style.
   3. Additionally, social media icons have been incorporated into the page.
+ ## Features
+ **Login Page (Captain):**
+  1. there is one page with two containers.
+  2. The first container is an image slider and the second one is the login details page.
+  3. For the image slider I have used Javascript for the owl carousel with the help of the internet.
+  4. In the Form I have used Input fields and a radio button for two options with a submit button. 
 
-4. **Pricing Tab (Surbhi):**
+5. **Pricing Tab (Surbhi):**
    - [Describe the pricing tab and its functionalities, if any.]
 
-5. **Become a Partner Tab (Rachit):**
+6. **Become a Partner Tab (Rachit):**
    - [Explain the features and functionalities of the "Become a Partner" tab and page.]
 
-6. **Mutual Funds Tab (Deepak):**
+7. **Mutual Funds Tab (Deepak):**
    - [Detail the features and content available on the "Mutual Funds" tab and page.]
 
-7. **Live Blog (Anubhav):**
+8. **Live Blog (Anubhav):**
    - [Highlight the features and purpose of the live blog section.]
 
 ## Project Structure

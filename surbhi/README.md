@@ -48,6 +48,28 @@ This repository contains the HTML and CSS code for the AngelOne Pricing Page, sh
   5. FAQ Section: Frequently Asked Questions with an accordion-style layout for user-friendly navigation.
   6. Responsive Design: Ensures an optimal viewing experience across different devices.
 
+ ** Semantic Tag Used In Code:
+ 
+  1. <header>: Represents a group of introductory or navigational aids.
+
+  2. <nav>: Represents a section of a page that links to other pages or to parts within the page.
+
+  3. <main>: Represents the main content of the document.
+
+  4. <section>: Represents a generic section of a document or application.
+
+  5. <h1>, <h2>, <h3>, <h4>, <h5>, <h6>: Heading tags representing different levels of headings.
+
+  6. <p>: Represents a paragraph.
+
+  7. <ul> and <li>: Represent an unordered list and list items, respectively.
+
+  8. <table>, <tr>, <th>, <td>: Elements for creating tables.
+
+  9. <form>: Represents an HTML form for user input.
+
+  10. <input>, <select>, <button>: Form-related elements.
+
 
  ** About the Pricing page: **
  

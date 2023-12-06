@@ -46,7 +46,7 @@ The project structure is organized as follows:
 This structure includes a basic HTML file with a header, main content area with sections, and a footer. The CSS file contains styles for the layout, typography, and colors. You can customize and expand upon this structure based on the specific requirements of your project.
 
 **Support User-manual page **
-[https://shobharathor.github.io/TeamProject/rachit/become-a-partner-page/partner.html]
+[https://shobharathor.github.io/TeamProject/pavan/usermanual.html]
 Contributing
 We welcome contributions! If you'd like to contribute to AngelOne, please follow these guidelines: [Link to contribution guidelines].
 

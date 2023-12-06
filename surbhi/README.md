@@ -48,7 +48,6 @@ This repository contains the HTML and CSS code for the AngelOne Pricing Page, sh
   5. FAQ Section: Frequently Asked Questions with an accordion-style layout for user-friendly navigation.
   6. Responsive Design: Ensures an optimal viewing experience across different devices.
 
-
  ** About the Pricing page: **
  
  - [Technologies Used]
@@ -68,9 +67,5 @@ We welcome contributions! If you encounter any issues or have suggestions for im
 ## License
 
 This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Acknowledgments
-
-[Optional section to acknowledge and give credit to any third-party libraries, tools, or resources used in your project.]
 
 Feel free to explore, contribute, and enjoy AngelOne! 🌟

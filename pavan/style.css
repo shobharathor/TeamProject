@@ -262,10 +262,9 @@ nav{
 }
 .promo-imgcontainer{
     height:12rem;
+    margin-top:7rem; 
 }
-.promo-imgcontainer img{
-    height:50% ;
-}
+
 .bg1-blue-400{
     padding: 8px 12px;
     margin-top: 0px;
@@ -290,9 +289,9 @@ nav{
     padding-top: 12px;
     justify-content: space-evenly;
 }
- li{
+ /* li{
     list-style: none;
-}
+} */
 .card-container{
     height:100% ;
     margin-bottom:2rem ;
@@ -316,6 +315,7 @@ nav{
     /* height:8rem; */
     /* height:14rem ; */
     cursor: pointer;
+    transition: 1s ease-in;
 }
 .card-items:hover{
     text-shadow: 0px 0px blue;
@@ -355,8 +355,8 @@ nav{
 }
 .app-images{
     display: flex;
-     margin:2rem ;
-     margin-right:2rem ; 
+    align-items:center ;
+    gap:2rem ;
 }
 .promo-info{
     position: relative;
@@ -424,6 +424,9 @@ footer {
     text-align: center;
 }
 .promo button{
+    border:none ;
+    outline: none;
+    border-radius:0.5rem ;
     height:2rem ;
     width: 8rem;
     color: #ffffff;
@@ -449,11 +452,7 @@ form {
     --paragraph-color: #6a7582;
     --sub-heading-color: #333333;
 }
-@media screen and (max-width: 1024px){
-.footer_1, .section12, .section13 {
-    margin-right: -19rem;
-}
-}
+
 .footer_1 {
     background-color: rgb(65, 65, 96);
     display: flex;
@@ -589,18 +588,16 @@ width: 5rem;
 }
 .promo form {
     background-color: white;
-    width: 75%;
+    width: 80%;
     padding-top: 0.2rem;
     padding-bottom: 0.2rem;
+    border-radius:0.5rem ;
 }
 .promo form input {
 border:  none;
 }
-@media screen and (max-width:1024px){
-    
-/* .bg1-blue-400 {
-    margin-left: -2rem;
-    } */
+
+
     .search-container {
         
         margin-left: 30%;
@@ -610,4 +607,9 @@ border:  none;
     padding: 0px;
     margin: 15px 0px 0px 0px;
     }
-}
+
+@media screen and (max-width: 1024px){
+    .footer_1, .section12, .section13 {
+        margin-right: -19rem;
+    }
+    }

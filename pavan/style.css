@@ -446,6 +446,9 @@ user agent stylesheet
 section {
     display: block;
 }
+.search-container{
+  
+}
 :root {
     --font-family: 'Barlow (woff2)', sans-serif;
     --background-color: #f9fbfe;

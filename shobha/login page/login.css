@@ -10,6 +10,7 @@ body {
     width: 100%;
     height: 100%;
     display: flex;
+   
   }
 
   .image-slider {
@@ -17,9 +18,31 @@ body {
     background-color: #f0f0f0;
     overflow: hidden;
     padding: 20px;
+    justify-content: center;
   }
 
-  .login-container {
+   .logo img{
+    justify-items: center;
+    margin-left: 46px;
+  } 
+
+  .item h2, p{
+    justify-items: center;
+    margin-left: 10px;
+    font-size: small;
+    margin-left: 54px;
+
+  }
+  .item  p{
+    margin-right: 44px;
+  }
+  .item img{
+    width:250px;
+    height:350px;
+    margin-top:30px;
+  }
+
+ .login-container {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -32,11 +55,12 @@ body {
 
   .login-container {
     width: 300px;
-    background-color: #fff;
+    background-color: #dfdada;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
   .radio-group {
@@ -44,10 +68,11 @@ body {
   }
 
   .login-input {
-    width: 100%;
+    width: 70%;
     box-sizing: border-box;
     padding: 10px;
     margin-bottom: 15px;
+    border-radius: 5px;
   }
 
   .proceed-button {
@@ -61,4 +86,8 @@ body {
 
   .proceed-button:hover {
     background-color: #45a049;
+  }
+  .proceed-button{
+    border-radius: 5px;
+    width: 70%;
   }

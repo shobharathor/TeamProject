@@ -4,35 +4,15 @@ Welcome to AngelOne! 🚀
 
 ## Introduction
 
-AngelOne is a [Online trading and stock broking wesite].
+Angelone is an [Online trading and stock broking website].
 
 ## Team
 
 Meet the amazing team behind AngelOne:
 
-- **Shobha**
-  - *Role:* [captain]
+- **Shobha Rathor**
+  - *Role:* [Caption]
   - *GitHub:* [shobharathor]
-
-- **Surbhi**
-  - *Role:* [collaborator]
-  - *GitHub:* [iamsurbhi1503]
-
-- **Rachit**
-  - *Role:* [collaborator]
-  - *GitHub:* [Rachit garg]
-
-- **Deepak**
-  - *Role:* [collaborator]
-  - *GitHub:* [DEEPAK KUMAR]
-
--**Anubhav**
-  - *Role:* [collaborator]
-  - *GitHub:* [Anubhavsrivastava23]
-    
-  - ##karnati pavanteja##
-  - *Role:*[collabarator]
-  - *GitHub:*[karnati pavanteja]
 
 ## Getting Started
 
@@ -50,31 +30,18 @@ Meet the amazing team behind AngelOne:
   3. For the image slider I have used Javascript for the owl carousel with the help of the internet.
   4. In the Form I have used Input fields and a radio button for two options with a submit button. 
 
-5. **Pricing Tab (Surbhi):**
-   - [Describe the pricing tab and its functionalities, if any.]
 
-6. **Become a Partner Tab (Rachit):**
-   - [Explain the features and functionalities of the "Become a Partner" tab and page.]
-
-7. **Mutual Funds Tab (Deepak):**
-   - [Detail the features and content available on the "Mutual Funds" tab and page.]
-
-8. **Live Blog (Anubhav):**
-   - [Highlight the features and purpose of the live blog section.]
-
-## Project Structure
-
+ **About the home page:**
+ - [Technologies Used]
+   1. VS code
+   2. Github(for hosting the webpage)
+      
+ ## Project Structure
 The project structure is organized as follows:
 
 - **Home Page (Captain)**
   - [https://shobharathor.github.io/TeamProject/shobha/index.html)]
-
-- **Tabs and Pages**
-  - "Pricing" (Surbhi): [Pricing.html]
-  - "Become a Partner" (Rachit): [partner.html]
-  - "Mutual Funds" (Deepak): [mutual.html]
-  - "Live Blog" (Anubhav): [blog.html.html]
-
+  - 
 
 ## Contributing
 

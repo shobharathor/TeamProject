@@ -10,6 +10,8 @@ body {
 --whit-background-color: #ffffff;
 --dark-blue-color: #3f5bd9;
 --subheading-color: #777D87;
+--image-contrast: 60%;
+--image-greyscale: 25%;
 }
 
 h1, h2, h3, h4, h5, h6, p, li, ul, td, th, input, label, option {
@@ -27,12 +29,10 @@ justify-content: space-around;
 align-items: center;
 background-color: var(--whit-background-color);
 position: fixed;
+top: 0;
+left: 0;
 width: 100%;
 
-}
-
-.nav-container .mobile-menu {
-    display: none;
 }
 
 .logo-section img {
@@ -75,8 +75,8 @@ font-size: medium;
 }
 
 .bg-blue-400:hover {
-    opacity: 0.6;
-    transition: all .125s ease-in-out;
+transform: scale(1.1);
+transition: transform 0.3s ease-in-out;
     }
 
 .bg1-blue-400{
@@ -90,8 +90,8 @@ margin-left: 10px;
 }
 
 .bg1-blue-400:hover {
-    opacity: 0.6;
-    transition: all .125s ease-in-out;
+    transform: scale(1.1);
+transition: transform 0.3s ease-in-out;
     background-color: var(--background-color);
 }
 
@@ -101,20 +101,14 @@ margin-left: 10px;
     display:flex;
     justify-content: center;
     position: fixed;
+    /* top: 0; */
+    left: 0;
     width: 100%;
+    z-index: 100;
+    backdrop-filter: blur(10px) grayscale(var(--image-greyscale)) contrast(var(--image-contrast));
     margin-top: 4rem;
     
  }
-
- /* .fixed_container {
-
-    position: fixed;
-    padding-top: -2px;
-    padding-bottom: -11px;
-    padding-left: 10px;
-    padding-right:10px;
-    width: 100%;
- } */
  
  .nav-container ul{
     width: 100%;
@@ -127,7 +121,18 @@ margin-left: 10px;
      list-style: none;
      color:black;
      font-size: larger;
+     text-decoration: none;
     
+}
+
+.nav-container ul .li a {
+    text-decoration: none;
+}
+
+.nav-container ul .li a:hover {
+color: var(--dark-blue-color);
+transform: scale(1.1);
+transition: transform 0.3s ease-in-out;
 }
 
  /* Styling For Pricing */
@@ -169,7 +174,14 @@ color: #2A394E;
 .transaction{ 
 background-image: url("https://w3assets.angelone.in/wp-content/uploads/2022/08/section-background.png");
 margin-top: 7rem;
+text-decoration: none;
 }
+
+.transaction a {
+    text-decoration: none;
+}
+
+
 
 .transaction > h2 {
 font-weight: 700;
@@ -232,8 +244,8 @@ max-width: 100%;
 }
 
 .button:hover {
-opacity: 0.6;
-transition: all .125s ease-in-out;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
 }
 
 .form > form{
@@ -264,6 +276,8 @@ color: var(--dark-blue-color);
 cursor: pointer;
 text-decoration: underline;
 font-weight: 600;
+transform: scale(1.1);
+transition: transform 0.3s ease-in-out;
 }
 
 table{
@@ -349,25 +363,6 @@ font-weight: 400;
 margin-bottom: 20px;
 }
 
-/* .table-content .point img {
-height: 12px;
-width: 12px;
-max-width: 100%;
-border-style: none;
-display: flex;
-align-items: center;
-gap: ;
-} */
-
-/* .table-charges .icon img {
-height: 12px;
-width: 12px;
-max-width: 100%;
-border-style: none;
-display: flex;
-align-items: center;
-} */
-
 
 /* Calculate section styles */
 
@@ -409,8 +404,8 @@ color: var(--dark-blue-color) ;
 }
 
 .outlink:hover {
-opacity: 1;
-transition: all 0.125s ease-in-out;
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
 background-color: var(--background-color);
 }
 
@@ -462,8 +457,8 @@ font-size: 14px;
 }
 
 .investment-button:hover {
-opacity: 0.6;
-transition: all .125s ease-in-out;
+transform: scale(1.1);
+transition: transform 0.3s ease-in-out;
 }
 
 .table-container-bse {
@@ -515,8 +510,22 @@ border-bottom: 1px solid #E0E0EC;
 flex-direction: column;
 justify-content: space-evenly;
 text-align: left;
+animation: fadeInAnimation ease 5s;
+animation-iteration-count: 2;
+animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 
 }
+
+
 
 .accordion_text h2, .notes h2 {
     font-size: 28px;
@@ -594,6 +603,7 @@ display: block;
 width: 71rem;
 border-radius: 10px;
 }
+
 
 /* Footer */
 
@@ -923,16 +933,46 @@ margin-left: 10rem;
             width: 11rem;
         }
 
-        .nav-container, .pricing-1, .pricing,{
+        .nav-container, .pricing-1, .pricing {
             padding: 0.5rem 19rem;
     }
 
     .investment-content {
 
-        padding: -1px 220px
+        display: none;
     }
 
-    .footer {
-        padding: 0.5rem 19rem;
+    .footer_1, .section12, .section13 {
+        margin-right: -40rem;
     }
+
+    .transaction p, h1, .title-trade {
+        margin-left: -12rem;
+    }
+
+    .transaction .pricing-item p {
+        margin-left: -1rem;
+    }
+
+    .transaction form {
+        flex-direction: column;
+        
+    }
+
+
+    .input-field {
+        padding: 13px 9rem;
+    }
+
+
+    .pricing-list {
+        gap: 2rem;
+        margin-right: -1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .input-field {
+        display: none;
+    }
+
 }

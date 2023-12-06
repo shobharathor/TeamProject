@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+   <div class="container">
+        <div class="image-slider">
+          <!-- Add your image slider content here -->
+          <img src="images/angel-one-logo.png"\>
+          <div class="owl-carousel">
+            <div class="item"><img class="image1" src="images/recommendation1.png"></div>
+            <div class="item"><img class="image2" src="images/brokerage1.png" alt="Image 2"></div>
+            <div class="item"><img class="images3" src="images/trade-in-hour1.png" alt="Image 3"></div>
+          </div>
+        </div>
+        
+        
+        <div class="login-container">
+            <h2>Login/Register</h2>
+        
+            <div class="radio-group">
+              <label>
+                <input type="radio" name="loginType" value="phone" checked> Login/Register with Phone Number
+              </label>
+              <br>
+              <label>
+                <input type="radio" name="loginType" value="clientId"> Login with Client ID
+              </label>
+            </div>
+        
+            <input type="text" class="login-input" placeholder="Enter Mobile Number" id="mobileNumber">
+        
+            <button type="button" class="proceed-button" onclick="proceed()">Proceed</button>
+          </div>
+        
+          <script>
+            function proceed() {
+              // Add your logic to handle the proceed button click
+              alert('Proceed button clicked!');
+            }
+          </script>
+          <script>
+            $(document).ready(function(){
+              $(".owl-carousel").owlCarousel({
+                items: 1, // Number of items to show
+                loop: true, // Infinite loop
+                autoplay: true, // Autoplay the slider
+                autoplayTimeout: 3000, // Autoplay interval in milliseconds (3 seconds in this example)
+                autoplayHoverPause: true // Pause autoplay on hover
+              });
+            });
+          </script>
+      </div>
+</body>
+</html>

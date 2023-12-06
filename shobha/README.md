@@ -4,7 +4,7 @@ Welcome to AngelOne! 🚀
 
 ## Introduction
 
-AngelOne is a [Online trading and stock broking wesite].
+Angelone is an [Online trading and stock broking website].
 
 ## Team
 
@@ -13,22 +13,6 @@ Meet the amazing team behind AngelOne:
 - **Shobha**
   - *Role:* [captain]
   - *GitHub:* [shobharathor]
-
-- **Surbhi**
-  - *Role:* [collaborator]
-  - *GitHub:* [iamsurbhi1503]
-
-- **Rachit**
-  - *Role:* [collaborator]
-  - *GitHub:* [Rachit garg]
-
-- **Deepak**
-  - *Role:* [collaborator]
-  - *GitHub:* [DEEPAK KUMAR]
-
--**Anubhav**
-  - *Role:* [collaborator]
-  - *GitHub:* [Anubhavsrivastava23]  
 
 ## Getting Started
 
@@ -39,24 +23,27 @@ Meet the amazing team behind AngelOne:
   1. there are 13 sections on the home page, including a footer and a header.
   2. Two sections utilize a grid layout, and one section is designed in the form style.
   3. Additionally, social media icons have been incorporated into the page.
+  4. Flex Grid Usage and Center Alignment:
+     4.1. I have used Flex Grid on my webpage.
+     Center alignment has been applied to everything, ensuring that the content is centered.
+  5. Responsive Design Settings:
+     5.1. I have set the page to be responsive up to 1024 and 768.
+     This ensures that the page will display correctly when viewed on desktops, tablets, or mobile devices.
+ 6. Class-based Grid Structure:
+    6.1. I have structured the grid based on classes, creating a different layout for each section.
+      This approach keeps the code organized and gives each section a specific style.
 
 
  **About the home page:**
  - [Technologies Used]
    1. VS code
    2. Github(for hosting the webpage)
-   3. 
- 
-
-## Project Structure
-
+      
+ ## Project Structure
 The project structure is organized as follows:
 
 - **Home Page (Captain)**
-  - [https://www.angelone.in/ **the official page** (index.html github page.)]
-
-
-
+  - [https://shobharathor.github.io/TeamProject/shobha/index.html]
 
 ## Contributing
 

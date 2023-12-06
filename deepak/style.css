@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: barlow,sans-serif;
-    
+    text-decoration: none;
 }
 h1,h2,h3,h4,h5,h6{
     color: rgb(42,57,78)
@@ -18,12 +18,11 @@ p{
     color: orange;
 }
 .center{
-    /* display: flex;
+     display: flex;
     justify-content: center;
-    align-items: center; */
-    /* text-align: center; */
+    align-items: center; 
 
-    padding: 2rem 6rem;
+    /* padding: 2rem 6rem; */
 }
 head{
     display: flex;
@@ -65,6 +64,7 @@ input{
     margin-top: 3rem;
     margin-left: 1.5rem;
     margin-right: 1.5rem;
+    padding: 20px;
 }
 select{
     height: 3.2rem;
@@ -250,10 +250,16 @@ button{
      height: 350px;
      
  }
- .mutual-fund-calculator title{
-      display: flex;
-      align-items: center;
-      padding-bottom: 0;
+ .mutual-fund-calculator {
+    padding: 3rem 10rem;
+ }
+ .mutual-fund-calculator .mutual-title{
+       display: flex;
+       justify-content: space-between;
+       padding: 2rem 0;
+       font-size: 1.2rem;
+      
+     
      
  }
 
@@ -261,21 +267,31 @@ button{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
-         gap: 30px;
-         padding: 3rem 10rem;
-         
-   
+        gap: 30px;
+        list-style: none;
  }
+
  .mutual-fund-calculator .calculator-container ul .calculator-cards {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: rgb(0, 255, 238);
+    background-color: rgb(249,251,254);
+        border-radius: 10px;
+        border: 1px solid lightgray;
 
  }
- .mutual-fund-calculator .calculator-container ul .calculator-cards .calculator-title{
-    font-size: 1.5rem;
+ .mutual-fund-calculator .calculator-container ul li a{
+    display: flex;
+    text-align: center;
+    margin: 0.5rem 0;
+    color: rgb(42,57,78);
+   
+ }
+ .mutual-fund-calculator .calculator-container ul  .calculator-cards .calculator-title{
+      margin-bottom: 2rem;
+    font-size: 1.275rem;
     font-weight: 600;
+    word-spacing: 0.8px;
+
+   
+    
 
  }
  .investmentway-container {
@@ -295,6 +311,7 @@ button{
  .testimonial-container {
     background-color: rgb(249,251,254);
     height: 70vh;
+    /* padding: 2rem 5rem; */
  }
  .testimonial-header h2 {
       margin-top: 3rem;
@@ -305,11 +322,12 @@ button{
     flex-direction: row;
     justify-content: center;
     gap: 20px;
+    list-style: none;
  }
  .testimonial-container .testimonial-card-container .slide-item1, .slide-item2 {
        text-align: center;
-       width: 37vw;
-       height: 40vh;
+       /* width: 37vw;
+       height: 40vh; */
        margin: 15px;
        border: 1px solid lightgrey;
        background-color: #FFFFFF;
@@ -335,6 +353,7 @@ button{
         padding: 3rem;
         margin-top: -1rem;
         word-spacing: 1px;
+        line-height: 25px;
  }
  .testimonial-container .testimonial-card-container .testimonial-card img {
         width: 50px;
@@ -376,11 +395,87 @@ button{
  .mf-main-container {
      /* display: flex;
      align-items: center; */
+     padding: 2rem 10rem;
      
  }
  .mf-main-container h2 {
     font-size: 1.5rem;
  }
+ .details-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+ }
+ .details-container summary {
+    font-size: 1.2rem;
+    font-weight: 700;
+    word-spacing: 1px;
+ }
+ .blog-container {
+    padding: 2rem 10rem;
+    background-color: rgb(249,251,254);
+   
+ }
+ .blog-container .blog-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+ }
+ .blog-container .mututal-blog-card-container ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+   
+ }
+ .blog-container .mututal-blog-card-container ul li {
+    /* border: 1px solid red; */
+    background-color: #FFFFFF;
+    border-radius: 5px;
+ }
+ .blog-container .mututal-blog-card-container ul li img {
+        width: 100%;
+ }
+ .blog-container .mututal-blog-card-container ul li p {
+      padding: 1rem;
+      color: rgb(8,103,179);
+ }
+ .blog-container .mututal-blog-card-container ul li h3 {
+     font-size: 1.1rem;
+     margin: 20px 5px;
+     word-spacing: 1px;
+     letter-spacing: 0.5px;
+     line-height: 30px;
+ }
+ .blog-container .mututal-blog-card-container ul li .blog-time {
+    display: flex;
+    justify-content: space-between;
+ }
+ .app-card-container {
+    background-color: rgb(63,91,217);
+    padding: 2rem 10rem;
+ }
+ .app-container .app-card-container {
+       display: flex;
+
+ }
+ .app-container .app-card-container .app-card-1 {
+    display: flex;
+
+}
+.app {
+    padding: 2rem 10rem;
+}
+.app-container .app-card-container .app-card-1 img{
+       /* width: 50rem;
+       height: 25rem; */
+
+}
+ .app-container .app-card-container  .downloads-details {
+       color: rgb(255,201,2);
+       font-size: 2rem;
+ }
+
+ 
 
 
 

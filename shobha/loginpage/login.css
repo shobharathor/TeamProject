@@ -91,3 +91,7 @@ body {
     border-radius: 5px;
     width: 70%;
   }
+
+  .owl-carousel .owl-item img {
+    height: 100%;
+  }

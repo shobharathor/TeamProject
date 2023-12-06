@@ -5,6 +5,7 @@ Welcome to AngelOne! () 🚀
 ## Introduction
 
 This repository contains the HTML and CSS code for the AngelOne Pricing Page, showcasing detailed information on transaction charges, regulatory fees, and additional charges associated with trading and investment services provided by AngelOne.
+SEAMANTIC TAG USED : header, navbar, section, main, h1..h6, p, ul, li, table, tr, th, td, form, input, button, select.
 
 ## Collaborator Name:
 

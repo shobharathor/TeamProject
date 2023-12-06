@@ -77,9 +77,9 @@ font-size: medium;
 .bg-blue-400:hover {
 transform: scale(1.1);
 transition: transform 0.3s ease-in-out;
-    }
+}
 
-.bg1-blue-400{
+.bg1-blue-400 {
 color: blue;
 background-color: white;
 border: 1px solid blue;
@@ -87,6 +87,10 @@ padding: 15px 37px;
 border-radius: 5px;
 font-size: medium;
 margin-left: 10px;
+}
+
+.bg1-blue-400 a {
+    text-decoration: none;
 }
 
 .bg1-blue-400:hover {
@@ -101,7 +105,7 @@ transition: transform 0.3s ease-in-out;
     display:flex;
     justify-content: center;
     position: fixed;
-    /* top: 0; */
+    top: 0;
     left: 0;
     width: 100%;
     z-index: 100;
@@ -263,7 +267,6 @@ font-weight: 400;
 font-size: 18px;
 line-height: 25px;
 color: #777D87;
-display: flex;
 gap: 32px;
 white-space: nowrap;
 overflow-x: auto;
@@ -276,8 +279,6 @@ color: var(--dark-blue-color);
 cursor: pointer;
 text-decoration: underline;
 font-weight: 600;
-transform: scale(1.1);
-transition: transform 0.3s ease-in-out;
 }
 
 table{
@@ -335,7 +336,6 @@ font-size: 14px;
 
 table td {
 color: #444444;
-font-family: Helvetica;
 font-size: 16px;
 font-weight: 400;
 font-family: 'Barlow';
@@ -404,8 +404,8 @@ color: var(--dark-blue-color) ;
 }
 
 .outlink:hover {
-    transform: scale(1.1);
-    transition: transform 0.3s ease-in-out;
+transform: scale(1.1);
+transition: transform 0.3s ease-in-out;
 background-color: var(--background-color);
 }
 
@@ -681,10 +681,7 @@ padding-bottom: 80px;
     list-style: none;
     color:white;
 } 
-/* .grid-item1{
-    border-left: 1px solid #f2f2f2;
-    padding-left: 15px;
-} */
+
 .grid-item1 p{
     margin-left: 0px;
     margin-right: 0px;
@@ -713,6 +710,7 @@ color: white;
     margin-bottom: 0px;
     padding: 0px 0px;
 }
+
 .ftsec2{
     display:flex;
     margin-left: -400px;
@@ -723,6 +721,7 @@ color: white;
     margin-bottom: 0px;
     padding: 0px 0px;
 }
+
 .spport{
     display:flex;
     margin-left: 0px;
@@ -733,6 +732,7 @@ color: white;
     margin-bottom: 0px;
     padding: 0px 0px;
 }
+
 .customer{
     display: flex;
     margin-left: 37px;
@@ -751,12 +751,6 @@ color: white;
     margin-right: 6px;
     margin-top: 20px;
 }
-
-/* .customerpart-2 img {
-    margin-left: 0px;
-    margin-right: 6px;
-    margin-top: 20px;
-} */
 
 .footersectionpart-2{
     display:flex;
@@ -793,11 +787,12 @@ color: white;
 }
 .footerpartstyle p{
 color: white;
-/* align-items: center; */
 line-height: 4;
 margin-left: 10rem;
     
 }
+
+/* Media Queries For Laptop */
 
 @media screen and (max-width: 1024px){
 
@@ -855,6 +850,8 @@ margin-left: 10rem;
 }
 
 }
+
+/* Media Queries for Tab */
 
 @media screen and (max-width: 768px){
 
@@ -916,6 +913,8 @@ margin-left: 10rem;
 
 }    
 
+/* Media Queries for Large Phones */
+
     @media screen and (max-width: 425px) {
 
         .nav-container ul {
@@ -925,15 +924,15 @@ margin-left: 10rem;
 
         }
 
-        .button-1 {
+    .button-1 {
             margin-right: 17rem;
         }
 
-        .search-input {
+    .search-input {
             width: 11rem;
         }
 
-        .nav-container, .pricing-1, .pricing {
+    .nav-container, .pricing-1, .pricing {
             padding: 0.5rem 19rem;
     }
 
@@ -959,11 +958,9 @@ margin-left: 10rem;
         
     }
 
-
     .input-field {
         padding: 13px 9rem;
     }
-
 
     .pricing-list {
         gap: 2rem;
@@ -973,6 +970,33 @@ margin-left: 10rem;
     }
     .input-field {
         display: none;
+    }
+
+    .table-charges {
+        display: none;
+    }
+
+}
+
+/* Media Quersies for medium screen phones */
+
+@media screen and (max-width: 375px) {
+
+    .nav-container, .pricing-1, .pricing{
+        padding: 0.5rem 21rem;
+    }
+
+    .transaction p, h1, form p {
+        margin-left: -12rem;
+    }
+
+    .table-charges {
+        display: none;
+    }
+
+    .calculate-link {
+        margin-top: -2rem;
+        gap: 1rem;
     }
 
 }

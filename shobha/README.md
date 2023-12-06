@@ -41,7 +41,7 @@ The project structure is organized as follows:
 
 - **Home Page (Captain)**
   - [https://shobharathor.github.io/TeamProject/shobha/index.html)]
-  - 
+  - [https://shobharathor.github.io/TeamProject/shobha/loginpage/login.html]
 
 ## Contributing
 

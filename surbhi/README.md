@@ -48,9 +48,6 @@ This repository contains the HTML and CSS code for the AngelOne Pricing Page, sh
   5. FAQ Section: Frequently Asked Questions with an accordion-style layout for user-friendly navigation.
   6. Responsive Design: Ensures an optimal viewing experience across different devices.
 
- ** Sematic Tag Used In Code : **
-    <header></header>, <navbar></navbar>, <section></section>, <h1>...<h6></h6>, <p>, <ul>, <li>, <table>, <tr>, <th>, <td>, <form>, <input>, <select>, <button>
-
  ** About the Pricing page: **
  
  - [Technologies Used]

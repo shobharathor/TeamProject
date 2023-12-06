@@ -28,7 +28,11 @@ Meet the amazing team behind AngelOne:
 
 -**Anubhav**
   - *Role:* [collaborator]
-  - *GitHub:* [Anubhavsrivastava23]  
+  - *GitHub:* [Anubhavsrivastava23]
+    
+  - ##karnati pavanteja##
+  - *Role:*[collabarator]
+  - *GitHub:*[karnati pavanteja]
 
 ## Getting Started
 
@@ -57,7 +61,7 @@ Meet the amazing team behind AngelOne:
 The project structure is organized as follows:
 
 - **Home Page (Captain)**
-  - [https://www.angelone.in/ **the official page** (index.html github page.)]
+  - [https://shobharathor.github.io/TeamProject/shobha/index.html)]
 
 - **Tabs and Pages**
   - "Pricing" (Surbhi): [Pricing.html]

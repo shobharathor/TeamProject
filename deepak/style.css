@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: barlow,sans-serif;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(42,57,78)
+}
+p{
+    color: rgb(51,77,84);
+}
+.blue{
+    color: blue;
+}
+.orange{
+    color: orange;
+}
+.center{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* text-align: center; */
+
+    padding: 2rem 6rem;
+}
+head{
+    display: flex;
+    flex-direction: row;
+}
+.mutual{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.mutual .content h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #000000;
+}
+.mutual .content p{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #2a394e;
+   
+}
+.mutual img {
+  margin-bottom: -27px;
+  margin-right: 4rem;
+}
+.form{
+    background-color: rgb(63, 91, 217);
+    height: 10rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    border-radius: 10px;
+}
+input{
+    height: 3.2rem;
+    border-radius: 7px;
+    border: 1px solid white;
+    width: 22%;
+    margin-top: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+select{
+    height: 3.2rem;
+    border-radius: 7px;
+    border: 1px solid white;
+    width: 22%;
+    margin-top: 3rem;
+    margin-right: 1rem;
+}
+button{
+    height: 3.2rem;
+    border-radius: 4px;
+    border: 1px solid white; 
+    width: 22%;
+    margin-top: 3rem;
+    background-color:  rgb(63, 91, 217);
+    color: white;
+    font-weight: 600;
+}
+.explore{
+   
+    background-color: rgb(249,251,254);
+    display: block;
+    padding: 16px;
+
+}
+.explore h1{
+    text-align: center;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.bottom{
+    display: flex; 
+   flex-direction: row;
+   justify-content: space-between;
+}
+.top .mutual-item{
+    margin: 10px;
+    width: 16rem;
+    height: 8rem;
+    border-radius: 8px;
+}
+.top .mutual-item:hover{
+    background-color: rgb(255,255,255);
+}
+.bottom .mutual-item{
+    margin: 10px;
+    width: 16rem;
+    height: 8rem;
+    border-radius: 8px;
+}
+.bottom .mutual-item:hover{
+    background-color: rgb(255,255,255);
+}
+.benefits-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    
+}
+.benefits-section .content-section{
+    display: flex;
+    /* flex-wrap: nowrap; */
+    width: 40%;
+    flex-direction: column;
+     margin-right: 4rem;
+}
+.benefits-section .content-section .content-area{
+    text-align: left;
+    padding-right: 2rem;
+    font-size: 1.2rem;
+}
+.benefits-section .content-section h2{
+    color: rgb(42,57,78);
+    font-size: 2rem;
+    text-align: left;
+    padding-right: 1rem;
+
+}
+.benefits-section .cards-container{
+    width: 40%;
+}
+
+.benefits-section .cards-container .card-section1{
+   display: flex;
+   flex-direction: row;
+}
+.benefits-section .cards-container .card-section2{
+    display: flex;
+    flex-direction: row;
+ }
+ .benefits-section .cards-container .cards-item{
+    text-align: left;
+    padding-right: 6rem;
+    word-spacing: 2px;
+    border: 1px solid lightgrey;
+    margin: 10px;
+    border-radius: 20px;
+    width: 14rem;
+    height: 14rem;
+ }
+
+ .benefits-section .cards-container .cards-item h4{
+        font-size: 1.25rem;
+    
+ }
+ .benefits-section .cards-container .cards-item p{
+    margin: 5px;
+ }
+ .invest-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 60vh;
+    background-color: rgb(249,251,254);
+ }
+ .invest-container .invest-section {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10rem;
+ }
+ .invest-container .left .invest-card{
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    height: 6rem;
+    margin-right: -5rem;
+    
+    
+   
+ }
+ .invest-container .left .invest-card .content-section {
+    text-align: left;
+    padding-right: 6rem;
+ }
+
+ .invest-container .right .invest-card{
+    display: flex;
+    flex-direction: column;
+    width: 35rem;
+    height: 6rem;
+    
+   
+ }
+ .invest-container .right .invest-card .content-section {
+    text-align: left;
+    padding-right: 6rem;
+ }
+ .invest-container .invest-card .content-section h4{
+    font-size: 1.5rem;
+ }
+ .partner-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+ }
+
+ .partner-container .content h2{
+        font-size: 2rem;
+        text-align: left;
+     padding-right: 6rem;
+ }
+ .partner-container .content a{
+    text-align: left;
+    padding-right: 6rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: rgb(63,91,217);
+ }
+ .partner-container img {
+     width: 600px;
+     height: 350px;
+     
+ }
+ .mutual-fund-calculator title{
+      display: flex;
+      align-items: center;
+      padding-bottom: 0;
+     
+ }
+
+ .mutual-fund-calculator .calculator-container ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+         gap: 30px;
+         padding: 3rem 10rem;
+         
+   
+ }
+ .mutual-fund-calculator .calculator-container ul .calculator-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(0, 255, 238);
+
+ }
+ .mutual-fund-calculator .calculator-container ul .calculator-cards .calculator-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+
+ }
+ .investmentway-container {
+
+      margin-left: 12rem;
+      margin-right: 12rem;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+ }
+ .investmentway-container h2{
+          font-size: 1.7rem; 
+          font-weight: 700;   
+ }
+ .investmentway-container .invest-type, .child-container strong {
+    font-size: 1.2rem;
+ }
+ .testimonial-container {
+    background-color: rgb(249,251,254);
+    height: 70vh;
+ }
+ .testimonial-header h2 {
+      margin-top: 3rem;
+       font-size: 2.5rem;
+ }
+ .testimonial-container .testimonial-card-container ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+ }
+ .testimonial-container .testimonial-card-container .slide-item1, .slide-item2 {
+       text-align: center;
+       width: 37vw;
+       height: 40vh;
+       margin: 15px;
+       border: 1px solid lightgrey;
+       background-color: #FFFFFF;
+       border-radius: 7px;
+       margin-top: 3rem;
+       margin-left: 0;
+       
+ }
+ .testimonial-container .testimonial-card-container .testimonial-card {
+    display: flex;
+    flex-direction: row;
+       margin-left: 4rem;
+      text-align: left;
+      margin-top: 3rem;
+
+ }
+ .testimonial-container .testimonial-card-container .testimonial-card .right h4 {
+    font-size: 1.5rem;
+
+ }
+ .testimonial-container .testimonial-card-container .testimonial-content p {
+        text-align: left;
+        padding: 3rem;
+        margin-top: -1rem;
+        word-spacing: 1px;
+ }
+ .testimonial-container .testimonial-card-container .testimonial-card img {
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+ }
+ .pill {
+    margin-top: -25rem;
+    margin-right: -6rem;
+    color: green;
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+ }
+ .demat-container {
+    background-color: rgb(249,251,254);
+    height: 36vh;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border-radius: 5px;
+ }
+ .demat-container .demat-content {
+    text-align: center;
+    padding: 3rem;
+ }
+ .demat-container .demat-content h2 {
+    font-size: 2rem;
+ }
+ .demat-container .demat-content p {
+    font-size: 1.2rem;
+    color: darkgray;
+ }
+ .demat-container .demat-content button {
+    font-size: 1.2rem;
+    width: 16rem;
+ }
+ .mf-main-container {
+     /* display: flex;
+     align-items: center; */
+     
+ }
+ .mf-main-container h2 {
+    font-size: 1.5rem;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* .partner-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+ } */
+
+

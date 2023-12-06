@@ -21,7 +21,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    /* text-align: center; */
 }
 head{
     display: flex;
@@ -277,12 +277,102 @@ button{
     font-weight: 600;
 
  }
- .investmentway-container h2{
-          font-size: 1.5rem; 
-          font-weight: 700;   
+ .investmentway-container {
 
+      margin-left: 12rem;
+      margin-right: 12rem;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
+ }
+ .investmentway-container h2{
+          font-size: 1.7rem; 
+          font-weight: 700;   
+ }
+ .investmentway-container .invest-type, .child-container strong {
+    font-size: 1.2rem;
+ }
+ .testimonial-container {
+    background-color: rgb(249,251,254);
+    height: 70vh;
+ }
+ .testimonial-header h2 {
+      margin-top: 3rem;
+       font-size: 2.5rem;
+ }
+ .testimonial-container .testimonial-card-container ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+ }
+ .testimonial-container .testimonial-card-container .slide-item1, .slide-item2 {
+       text-align: center;
+       width: 37vw;
+       height: 40vh;
+       margin: 15px;
+       border: 1px solid lightgrey;
+       background-color: #FFFFFF;
+       border-radius: 7px;
+       margin-top: 3rem;
+       margin-left: 0;
+       
+ }
+ .testimonial-container .testimonial-card-container .testimonial-card {
+    display: flex;
+    flex-direction: row;
+       margin-left: 4rem;
+      text-align: left;
+      margin-top: 3rem;
 
  }
+ .testimonial-container .testimonial-card-container .testimonial-card .right h4 {
+    font-size: 1.5rem;
+
+ }
+ .testimonial-container .testimonial-card-container .testimonial-content p {
+        text-align: left;
+        padding: 3rem;
+        margin-top: -1rem;
+        word-spacing: 1px;
+ }
+ .testimonial-container .testimonial-card-container .testimonial-card img {
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+ }
+ .pill {
+    margin-top: -25rem;
+    margin-right: -6rem;
+    color: green;
+    font-weight: 600;
+    font-size: 0.8rem;
+    letter-spacing: 0.5px;
+ }
+ .demat-container {
+    background-color: rgb(249,251,254);
+    height: 36vh;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    border-radius: 5px;
+ }
+ .demat-container .demat-content {
+    text-align: center;
+    padding: 3rem;
+ }
+ .demat-container .demat-content h2 {
+    font-size: 2rem;
+ }
+ .demat-container .demat-content p {
+    font-size: 1.2rem;
+    color: darkgray;
+ }
+ .demat-container .demat-content button {
+    font-size: 1.2rem;
+    width: 16rem;
+ }
+
 
 
 

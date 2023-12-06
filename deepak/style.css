@@ -24,9 +24,9 @@ p{
 
     /* padding: 2rem 6rem; */
 }
-head{
+.header-bar{
     display: flex;
-    flex-direction: row;
+    
 }
 .mutual{
     display: flex;
@@ -52,9 +52,7 @@ head{
 .form{
     background-color: rgb(63, 91, 217);
     height: 10rem;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    border-radius: 10px;
+    border-radius: 10px; 
 }
 input{
     height: 3.2rem;
@@ -87,9 +85,15 @@ button{
 .explore{
    
     background-color: rgb(249,251,254);
-    display: block;
-    padding: 16px;
+    padding:  0  10rem;
+   
 
+}
+.explore .explore-bar {
+    padding: 2rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-align: center;
 }
 .explore h1{
     text-align: center;
@@ -109,6 +113,9 @@ button{
    justify-content: space-between;
 }
 .top .mutual-item{
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
     margin: 10px;
     width: 16rem;
     height: 8rem;
@@ -118,6 +125,9 @@ button{
     background-color: rgb(255,255,255);
 }
 .bottom .mutual-item{
+    font-size: 1.1rem;
+    font-weight: 700;
+    text-align: center;
     margin: 10px;
     width: 16rem;
     height: 8rem;
@@ -131,26 +141,27 @@ button{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin: 50px;
+    /* background-color: red; */
     
 }
 .benefits-section .content-section{
     display: flex;
-    /* flex-wrap: nowrap; */
-    width: 40%;
+    width: 50%;
     flex-direction: column;
      margin-right: 4rem;
 }
-.benefits-section .content-section .content-area{
+.benefits-section .content-section .content-area p{
     text-align: left;
-    padding-right: 2rem;
-    font-size: 1.2rem;
+    padding-right: 6rem;
+    font-size: 1.1rem;
+    line-height: 25px;
+    letter-spacing: 0.2px;
 }
 .benefits-section .content-section h2{
     color: rgb(42,57,78);
     font-size: 2rem;
     text-align: left;
-    padding-right: 1rem;
+    /* padding-right: 1rem; */
 
 }
 .benefits-section .cards-container{
@@ -167,21 +178,23 @@ button{
  }
  .benefits-section .cards-container .cards-item{
     text-align: left;
-    padding-right: 6rem;
+    padding-right: 2rem;
     word-spacing: 2px;
+    line-height: 25px;
     border: 1px solid lightgrey;
     margin: 10px;
     border-radius: 20px;
-    width: 14rem;
-    height: 14rem;
  }
-
+ .benefits-section .cards-container .cards-item svg {
+     margin: 15px;
+ }
  .benefits-section .cards-container .cards-item h4{
         font-size: 1.25rem;
+        margin: 0 5px ;
     
  }
  .benefits-section .cards-container .cards-item p{
-    margin: 5px;
+    margin: 10px;
  }
  .invest-container{
     display: flex;
@@ -191,10 +204,13 @@ button{
     height: 60vh;
     background-color: rgb(249,251,254);
  }
+ .invest-container h1 {
+    font-size: 2.5rem;
+ }
  .invest-container .invest-section {
     display: flex;
     flex-direction: row;
-    margin-left: 10rem;
+    /* margin-left: 10rem; */
  }
  .invest-container .left .invest-card{
     display: flex;
@@ -226,6 +242,9 @@ button{
  .invest-container .invest-card .content-section h4{
     font-size: 1.5rem;
  }
+ .invest-container .invest-card .content-section p {
+         line-height: 25px;
+ }
  .partner-container{
       display: flex;
       flex-direction: row;
@@ -251,7 +270,7 @@ button{
      
  }
  .mutual-fund-calculator {
-    padding: 3rem 10rem;
+      
  }
  .mutual-fund-calculator .mutual-title{
        display: flex;
@@ -296,10 +315,6 @@ button{
  }
  .investmentway-container {
 
-      margin-left: 12rem;
-      margin-right: 12rem;
-      margin-top: 5rem;
-      margin-bottom: 5rem;
  }
  .investmentway-container h2{
           font-size: 1.7rem; 
@@ -321,19 +336,17 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 20px;
+    gap: 27px;
     list-style: none;
  }
  .testimonial-container .testimonial-card-container .slide-item1, .slide-item2 {
        text-align: center;
-       /* width: 37vw;
-       height: 40vh; */
        margin: 15px;
        border: 1px solid lightgrey;
        background-color: #FFFFFF;
        border-radius: 7px;
        margin-top: 3rem;
-       margin-left: 0;
+       
        
  }
  .testimonial-container .testimonial-card-container .testimonial-card {
@@ -370,11 +383,6 @@ button{
  }
  .demat-container {
     background-color: rgb(249,251,254);
-    height: 36vh;
-    margin-left: 10rem;
-    margin-right: 10rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
     border-radius: 5px;
  }
  .demat-container .demat-content {
@@ -387,32 +395,40 @@ button{
  .demat-container .demat-content p {
     font-size: 1.2rem;
     color: darkgray;
+    line-height: 30px;
  }
  .demat-container .demat-content button {
     font-size: 1.2rem;
     width: 16rem;
  }
  .mf-main-container {
-     /* display: flex;
-     align-items: center; */
-     padding: 2rem 10rem;
-     
+    
+ }
+ .mf-main-container .details-container details {
+    background-color: rgb(249,251,254);
+    border-bottom: 1px solid lightgrey;
+     height: 3rem;
+ }
+ .mf-main-container .details-container p {
+    line-height: 30px;
  }
  .mf-main-container h2 {
     font-size: 1.5rem;
+    
  }
  .details-container {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 10px;
  }
  .details-container summary {
     font-size: 1.2rem;
     font-weight: 700;
     word-spacing: 1px;
+    margin-top: 10px;
  }
  .blog-container {
-    padding: 2rem 10rem;
+    /* padding: 2rem 10rem; */
     background-color: rgb(249,251,254);
    
  }
@@ -453,6 +469,7 @@ button{
  .app-card-container {
     background-color: rgb(63,91,217);
     padding: 2rem 10rem;
+    border-radius: 10px;
  }
  .app-container .app-card-container {
        display: flex;
@@ -460,19 +477,52 @@ button{
  }
  .app-container .app-card-container .app-card-1 {
     display: flex;
+    /* width: 50%; */
 
 }
 .app {
     padding: 2rem 10rem;
 }
 .app-container .app-card-container .app-card-1 img{
-       /* width: 50rem;
-       height: 25rem; */
+      width: 550px;
+      height: 370px;
+      margin-left: -150px;
+      margin-top: -1.9rem;
 
 }
  .app-container .app-card-container  .downloads-details {
        color: rgb(255,201,2);
        font-size: 2rem;
+       margin-left: -240px;
+       margin-top: 1.7rem;
+       font-weight: 700;
+       letter-spacing: 0.5px;
+ }
+ .app-container .app-card-container .app-section {
+        
+        margin-left: 6rem;
+ }
+ .app-container .app-card-container .app-section h5{
+           font-size: 2rem;
+           color: white;
+ }
+ .app-container .app-card-container .app-section p {
+       color: white;
+       font-size: 1.2rem;
+       margin-top: 1rem;
+ }
+ .app-container .app-card-container .app-section .form-section input {
+    padding: 20px;
+ }
+ .app-container .app-card-container .app-section .links-container {
+         display: flex;
+         gap: 2rem;
+        
+ }
+ .app-container .app-card-container .app-section .links-container .apple-play {
+    border-left: 0.005px solid black;
+    padding: 0 1rem;
+   
  }
 
  
@@ -506,11 +556,5 @@ button{
 
 
 
- /* .partner-center{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
- } */
-
+ 
 

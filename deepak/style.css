@@ -256,20 +256,19 @@ button{
  }
 
  .mutual-fund-calculator .calculator-container ul {
-         display: flex;
-         flex-direction: row;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
          gap: 30px;
-         flex-wrap: wrap;
-         align-items: center;
-         justify-content: space-between;  
+         padding: 3rem 10rem;
+         
    
  }
  .mutual-fund-calculator .calculator-container ul .calculator-cards {
     display: flex;
     flex-direction: row;
     align-items: center;
-         width: 20rem;
-         background-color: rgb(0, 255, 238);
+    background-color: rgb(0, 255, 238);
 
  }
  .mutual-fund-calculator .calculator-container ul .calculator-cards .calculator-title{
@@ -372,6 +371,15 @@ button{
     font-size: 1.2rem;
     width: 16rem;
  }
+ .mf-main-container {
+     /* display: flex;
+     align-items: center; */
+     
+ }
+ .mf-main-container h2 {
+    font-size: 1.5rem;
+ }
+
 
 
 

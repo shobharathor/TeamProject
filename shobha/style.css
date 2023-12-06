@@ -1807,6 +1807,65 @@ background-image: url(images/Asset_22_1.webp);
 
 
 
+/* -----------------------------------------media queries by member------------------------------------------   */
 
+@media screen and (max-width: 768px) {
+    .section-3 {
+        max-width: 100vw;
+    }
+    .section-3 .containerform {
+        width: 100%;
+        margin: 0;
+        padding-right: 0;
+    }
+    .section-3 .city {
+        margin-left: 542px;
+    }
+
+    .section-4 {
+        max-width: 100vw;
+    }
+
+    .section-5 {
+        max-width: 100vw;
+    }
+    .section-5 .container-5 {
+        margin-right: 0;
+        width: 100%;
+    }
+    .section-5 .container-5 .grid-container {
+        grid-template-columns: 1fr;
+        margin-left: 0;
+    }
+
+    .section-6 {
+        max-width: 100vw;
+    }
+    .section-6 .container-6 {
+        padding: 0;
+        margin-left: 0;
+    }
+    .section-6 .container-6 .head2 h2 {
+        margin-right: 0;
+        font-size: 2rem;
+    }
+
+    .section11 {
+        max-width: 100vw;
+    }
+    .section11 .footer {
+        padding: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .footerimg {
+        margin-right: 0;
+        margin-left: 1rem;
+    }
+
+    .section12 {
+        flex-direction: column;
+    }
+}
 
 

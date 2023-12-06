@@ -48,14 +48,13 @@ rgb(51, 51, 51);
 .content{
     padding:4rem ;
 }
-.content li{
-    display: flex;
 }
+
 .anchor li{
     display: flex;
     flex-direction: row;
 }
-}
+
 .header{
     /* margin:4rem 2rem; */
 }
@@ -236,6 +235,8 @@ nav{
     margin-left: 1239px;
     margin-right: 19px; */
     background-color: white;
+    color:#1935b4 ;
+    margin-righ% ;
 
 }
 
@@ -280,7 +281,16 @@ nav{
 .nav-container{
     
     background-color: rgb(221, 221, 248);
-     height:50px;
+height:50px;
+
+}
+.main-right .number{
+    display: flex;
+    padding-top:0.5rem ;
+ border: 6px black ;
+ /* width: 16rem;
+ height:3rem ; */
+
 
 }
 
@@ -289,7 +299,7 @@ nav{
     padding-top: 12px;
     justify-content: space-evenly;
 }
- /* li{
+/* li{
     list-style: none;
 } */
 .card-container{
@@ -325,7 +335,7 @@ nav{
 }
 .card-container img{
     
-   
+
     padding:1rem 1rem 1rem 1rem;
 }
 .card-container p{
@@ -467,15 +477,18 @@ section {
     width:100% ;
     justify-content: space-between;
      z-index:100 ; 
+     
+
     background-color: #fff;
     display: flex;
+    gap:0;
     position: fixed;
     top: 0 ;
     align-items: center;
 
 }
 .nav-container{
-    margin-top: 150px  ;
+    margin-top: 5rem ;
 }
 /* .search-container{
   
@@ -566,9 +579,23 @@ padding-top: 0;
 }
 .under-h3 {
 display: flex;
-gap: 1rem;
+/* gap:9rem; */
 }
-
+ audio{
+    height:50% ;
+    width:rem ;
+}
+.anch
+.under-h3 li{
+    padding:2rem ;
+    color: #333333;
+    list-style-type: circle;
+}
+.home  ul{
+    padding: 2rem;
+    color: #333333;
+    list-style-type: circle;
+}
 .cards .card-container {
 display: grid;
 grid-template-columns: repeat(3,1fr);
@@ -600,7 +627,8 @@ border:  none;
 
     .search-container {
         
-        margin-left: 30%;
+         margin-left: 20%;
+       
     }
 
 .navbar img {

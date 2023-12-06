@@ -21,7 +21,7 @@ body{
     padding-top: 8px;
     padding-bottom: 10px;
     padding-right: 0px;
-    margin-left: 93px;
+    margin-left: 15px;
     justify-content: center;
 
 
@@ -138,7 +138,7 @@ body{
  
 @media screen and (max-width : 1024px){
     .navbar {
-        margin-left: -35px;
+        margin-left: 15px;
     }
     
     .bg-blue-400 {
@@ -1625,7 +1625,7 @@ background-image: url(images/Asset_22_1.webp);
        }.map img {
     height: 166px;
     margin-top: 197px;
-    margin-left: -784px;
+    margin-left: -993px;
    }
     .tophead {
          margin-top: 0px;

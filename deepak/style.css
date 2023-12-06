@@ -18,10 +18,12 @@ p{
     color: orange;
 }
 .center{
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     /* text-align: center; */
+
+    padding: 2rem 6rem;
 }
 head{
     display: flex;

@@ -26,11 +26,11 @@ Meet the amazing team behind AngelOne:
   - *Role:* [collaborator]
   - *GitHub:* [DEEPAK KUMAR]
 
--**Anubhav**
+- **Anubhav**
   - *Role:* [collaborator]
   - *GitHub:* [Anubhavsrivastava23]
 
-    -**Pawan Karnati**
+- **Pawan Karnati**
   - *Role:* [collaborator]
   - *GitHub:* [pavanteja karnati]
   

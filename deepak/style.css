@@ -183,16 +183,6 @@ p{
         text-decoration: none;
         
     }
-     
-    li:hover{
-        background-color: rgb(221, 170, 170);
-        color:black;
-    }
-    
-    ul .li a:hover{
-        background-color: rgb(195, 147, 239);
-        transition: background-color 1.5s;
-    }
 .mutual{
     display: flex;
     flex-direction: row;

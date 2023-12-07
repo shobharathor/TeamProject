@@ -60,7 +60,7 @@ Meet the amazing team behind AngelOne:
 The project structure is organized as follows:
 
 - **Home Page (Captain)**
-  - [https://shobharathor.github.io/TeamProject/shobha/index.html)]
+  - [https://shobharathor.github.io/TeamProject/shobha/homepage/index.html)]
 
 - **Tabs and Pages**
   - "Pricing" (Surbhi): [Pricing.html]

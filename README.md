@@ -30,7 +30,7 @@ Meet the amazing team behind AngelOne:
   - *Role:* [collaborator]
   - *GitHub:* [Anubhavsrivastava23]
 
-- **Pawan Karnati**
+- **Pavan Karnati**
   - *Role:* [collaborator]
   - *GitHub:* [pavanteja karnati]
 
@@ -67,7 +67,7 @@ The project structure is organized as follows:
   - "Become a Partner" (Rachit): [partner.html]
   - "Mutual Funds" (Deepak): [mutual.html]
   - "Live Blog" (Anubhav): [blog.html.html]
-  - "User Manual"(Pawan Karnati):[usermanual.html]
+  - "User Manual"(Pavan Karnati):[usermanual.html]
  
      
 

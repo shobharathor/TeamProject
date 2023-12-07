@@ -4,7 +4,7 @@ Welcome to AngelOne! 🚀
 
 ## Introduction
 
-AngelOne is a [Online trading and stock broking wesite].
+Angelone is an [Online trading and stock broking website].
 
 ## Team
 
@@ -26,13 +26,16 @@ Meet the amazing team behind AngelOne:
   - *Role:* [collaborator]
   - *GitHub:* [DEEPAK KUMAR]
 
--**Anubhav**
+- **Anubhav**
   - *Role:* [collaborator]
   - *GitHub:* [Anubhavsrivastava23]
-    
-  - ##karnati pavanteja##
-  - *Role:*[collabarator]
-  - *GitHub:*[karnati pavanteja]
+
+- **Pawan Karnati**
+  - *Role:* [collaborator]
+  - *GitHub:* [pavanteja karnati]
+
+## Website Description 
+[The company offers multiple online trading apps. Services include online stock broking, depository services, commodity trading, and investment advisory services, personal loans and insurance, portfolio management services, IPO business and mutual funds distribution.]
 
 ## Getting Started
 
@@ -50,17 +53,7 @@ Meet the amazing team behind AngelOne:
   3. For the image slider I have used Javascript for the owl carousel with the help of the internet.
   4. In the Form I have used Input fields and a radio button for two options with a submit button. 
 
-5. **Pricing Tab (Surbhi):**
-   - [Describe the pricing tab and its functionalities, if any.]
 
-6. **Become a Partner Tab (Rachit):**
-   - [Explain the features and functionalities of the "Become a Partner" tab and page.]
-
-7. **Mutual Funds Tab (Deepak):**
-   - [Detail the features and content available on the "Mutual Funds" tab and page.]
-
-8. **Live Blog (Anubhav):**
-   - [Highlight the features and purpose of the live blog section.]
 
 ## Project Structure
 
@@ -74,6 +67,9 @@ The project structure is organized as follows:
   - "Become a Partner" (Rachit): [partner.html]
   - "Mutual Funds" (Deepak): [mutual.html]
   - "Live Blog" (Anubhav): [blog.html.html]
+  - "User Manual"(Pawan Karnati):[usermanual.html]
+ 
+     
 
 
 ## Contributing

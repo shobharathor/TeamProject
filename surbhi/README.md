@@ -9,6 +9,12 @@ This repository contains the HTML and CSS code for the AngelOne Pricing Page, sh
 
 SEAMANTIC TAG USED : header, navbar, section, main, h1..h6, p, ul, li, table, tr, th, td, form, input, button, select.
 
+Key Learnings From This Project:
+
+1. Mastered the art of crafting engaging and interactive web pages using HTML and CSS.
+2. Implemented animations and hover effects to enhance the user experience.
+3. Successfully implemented responsiveness, ensuring an optimal viewing experience across devices
+
 ## Collaborator Name:
 
 - **Surbhi**

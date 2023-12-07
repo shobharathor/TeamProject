@@ -510,8 +510,8 @@ border-bottom: 1px solid #E0E0EC;
 flex-direction: column;
 justify-content: space-evenly;
 text-align: left;
-animation: fadeInAnimation ease 5s;
-animation-iteration-count: 2;
+animation: fadeInAnimation ease 10s;
+animation-iteration-count: infinite;
 animation-fill-mode: forwards;
 }
 

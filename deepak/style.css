@@ -25,7 +25,7 @@ p{
      padding: 2rem 6rem; 
 }
 
- style of my navbar,serachbar,and button of top */
+    /* header and navbar  */
  .section-1{
     max-width: 100%;
 }
@@ -183,6 +183,9 @@ p{
         text-decoration: none;
         
     }
+    .header-bar {
+         display: flex;
+    }
 .mutual{
     display: flex;
     flex-direction: row;
@@ -201,41 +204,41 @@ p{
    
 }
 .mutual img {
-  margin-bottom: -27px;
+  margin-bottom: -22px;
   margin-right: 4rem;
 }
-.form{
+.form form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     background-color: rgb(63, 91, 217);
     height: 10rem;
-    border-radius: 10px; 
+    border-radius: 10px;
+    padding: 0 2rem;
+    gap: 2rem;
 }
 input{
     height: 3.2rem;
     border-radius: 7px;
     border: 1px solid white;
-    width: 22%;
-    margin-top: 3rem;
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
-    padding: 20px;
+    width: 15rem;
+    padding: 0 10px;
 }
 select{
     height: 3.2rem;
     border-radius: 7px;
-    border: 1px solid white;
-    width: 22%;
-    margin-top: 3rem;
-    margin-right: 1rem;
+    width: 15rem;
 }
 button{
     height: 3.2rem;
     border-radius: 4px;
     border: 1px solid white; 
-    width: 22%;
-    margin-top: 3rem;
+    width: 15rem;
     background-color:  rgb(63, 91, 217);
     color: white;
     font-weight: 600;
+    /* margin-left: -100px; */
 }
 .explore{
    
@@ -533,7 +536,7 @@ button{
         border-radius: 100px;
  }
  .pill {
-    margin-top: -25rem;
+    margin-top: -32rem;
     margin-right: -6rem;
     color: green;
     font-weight: 600;

@@ -1,4 +1,4 @@
-# AngelOne
+ge# AngelOne
 
 Welcome to AngelOne! 🚀
 
@@ -40,8 +40,30 @@ Meet the amazing team behind AngelOne:
 The project structure is organized as follows:
 
 - **Home Page (Captain)**
-  - [https://shobharathor.github.io/TeamProject/shobha/index.html)]
+  - [https://shobharathor.github.io/TeamProject/shobha/homepage/index.html)]
   - [https://shobharathor.github.io/TeamProject/shobha/loginpage/login.html]
+
+##learning from the Project
+1. Teamwork Learning:
+
+Emphasized the importance of teamwork in your IT project.
+Gained insights into collaborative work within a team setting.
+Responsiveness:
+
+2. Acquired skills in making a website responsive.
+HTML Structure:
+
+3. Focused on applying parent-child relationships to HTML tags.
+GitHub Collaboration:
+
+4. Learned how to collaborate on GitHub for team projects.
+JavaScript Implementation:
+
+5. Added a JavaScript click event to a login page button.
+Owl Carousel Usage:
+
+Incorporated the Owl Carousel into the project.
+
 
 ## Contributing
 

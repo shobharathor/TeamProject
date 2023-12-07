@@ -41,6 +41,21 @@ Meet the amazing team behind AngelOne:
 
 - **SEO Optimization:**
   - Using HTML tags and meta tags to optimize the website for search engines.
+Project Structure
+The project structure is organized as follows:
+
+**Become A partner page **
+[https://shobharathor.github.io/TeamProject/pavan/usermanual.html]
+**Contributing**
+We welcome contributions! If you'd like to contribute to AngelOne, please follow these guidelines: [Link to contribution guidelines].
+
+**License**
+This project is licensed under the [License Name] - see the LICENSE.md file for details.
+
+**Acknowledgments**
+[Optional section to acknowledge and give credit to any third-party libraries, tools, or resources used in your project.]
+
+
 
 
 Feel free to explore, contribute, and enjoy AngelOne! 🌟

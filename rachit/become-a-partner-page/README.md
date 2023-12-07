@@ -20,8 +20,9 @@ Meet the amazing team behind AngelOne:
 
 ## Features
  **Become A Partner Page:**
-  1. there are 9 sections on the partner page, including a footer and a header.
-  2. All sections utilize a flex layout, and one section is designed in the form style.
+  1. There are 9 sections on the partner page, including a footer and a header.
+  2. Tags used: 
+     2.1. Semantic tags - nav, footer, main, section etc.
   3. Additionally, social media icons have been incorporated into the page.
   4. Flex Grid Usage and Center Alignment:
      4.1. I have used Flex Grid on my webpage.
@@ -32,9 +33,14 @@ Meet the amazing team behind AngelOne:
  6. Relevant class names:
     6.1. I have used easy to get class names, which can be used easily for get the same result in different sections.
       This approach keeps the code organized and gives each section a specific style.
-
-
- **About the home page:**
+ 7. Learning: 
+    7.1. Use class names efficilently 
+    7.2. Use of extensions like pesticide and font-finder
+    7.3. Team-work on github
+    7.4. Giving media-queries and animations
+ 
+    
+ **About the Partner page:**
  - [Technologies Used]
    1. VS code
    2. Github(for hosting the webpage)

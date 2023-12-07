@@ -266,11 +266,7 @@ input{
         grid-template-rows: auto;
         grid-template-columns: repeat(4, 1fr); 
         gap: 10px;
-        margin-left: 146px;
-        margin-right: 0px;
-        margin-top: 0;
-        margin-top: 18px;
-        margin-bottom: 0px;
+        margin: 393px 0px 0px 146px;
         padding: 0px 0px;
        
 }

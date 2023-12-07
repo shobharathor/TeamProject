@@ -19,22 +19,31 @@ Meet the amazing team behind AngelOne:
 [First, the captain created a GitHub account under the name of the team project. Then, we added all team members as collaborators. Everyone explored the AngelOne site in a meeting.]
 
 ## Features
- **Become A Partner Page:**
-  1. there are 9 sections on the partner page, including a footer and a header.
-  2. All sections utilize a flex layout, and one section is designed in the form style.
-  3. Additionally, social media icons have been incorporated into the page.
-  4. Flex Grid Usage and Center Alignment:
-     4.1. I have used Flex Grid on my webpage.
-     Center alignment has been applied to everything, ensuring that the content is centered.
-  5. Responsive Design Settings:
-     5.1. I have set the page to be responsive for lesser than 375, 375, 768, 1024 and larger than 1024.
-     This ensures that the page will display correctly when viewed on desktops, tablets, or mobile devices.
- 6. Relevant class names:
-    6.1. I have used easy to get class names, which can be used easily for get the same result in different sections.
-      This approach keeps the code organized and gives each section a specific style.
 
+**Become A Partner Page:**
 
- **About the home page:**
+1. There are 9 sections on the partner page, including a footer and a header.
+2. Tags used:
+   - Semantic tags - nav, footer, main, section, etc.
+3. Additionally, social media icons have been incorporated into the page.
+4. Flex Grid Usage and Center Alignment:
+   - I have used Flex Grid on my webpage.
+   - Center alignment has been applied to everything, ensuring that the content is centered.
+5. Responsive Design Settings:
+   - I have set the page to be responsive for lesser than 375, 375, 768, 1024, and larger than 1024.
+   - This ensures that the page will display correctly when viewed on desktops, tablets, or mobile devices.
+6. Relevant class names:
+   - I have used easy-to-understand class names, allowing for consistent styling across different sections.
+   - This approach keeps the code organized and provides specific styles to each section.
+7. Learning:
+   - Use class names efficiently.
+   - Use extensions like pesticide and font-finder.
+   - Collaborate effectively using GitHub for teamwork.
+   - Implement media queries and animations.
+
+ 
+    
+ **About the Partner page:**
  - [Technologies Used]
    1. VS code
    2. Github(for hosting the webpage)

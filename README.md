@@ -29,10 +29,11 @@ Meet the amazing team behind AngelOne:
 -**Anubhav**
   - *Role:* [collaborator]
   - *GitHub:* [Anubhavsrivastava23]
-    
-  - ##karnati pavanteja##
-  - *Role:*[collabarator]
-  - *GitHub:*[karnati pavanteja]
+
+    -**Pawan Karnati**
+  - *Role:* [collaborator]
+  - *GitHub:* [pavanteja karnati]
+  
 
 ## Getting Started
 
@@ -50,18 +51,21 @@ Meet the amazing team behind AngelOne:
   3. For the image slider I have used Javascript for the owl carousel with the help of the internet.
   4. In the Form I have used Input fields and a radio button for two options with a submit button. 
 
-5. **Pricing Tab (Surbhi):**
+1. **Pricing Tab (Surbhi):**
    - [Describe the pricing tab and its functionalities, if any.]
 
-6. **Become a Partner Tab (Rachit):**
+2. **Become a Partner Tab (Rachit):**
    - [Explain the features and functionalities of the "Become a Partner" tab and page.]
 
-7. **Mutual Funds Tab (Deepak):**
+3. **Mutual Funds Tab (Deepak):**
    - [Detail the features and content available on the "Mutual Funds" tab and page.]
 
-8. **Live Blog (Anubhav):**
+4. **Live Blog (Anubhav):**
    - [Highlight the features and purpose of the live blog section.]
-
+     
+5. **User manual (Pawan Karnati):**
+   - [Highlight the features and purpose of the live blog section.]
+     
 ## Project Structure
 
 The project structure is organized as follows:

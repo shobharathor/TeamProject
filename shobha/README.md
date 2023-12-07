@@ -1,4 +1,4 @@
-# AngelOne
+ge# AngelOne
 
 Welcome to AngelOne! 🚀
 
@@ -40,7 +40,7 @@ Meet the amazing team behind AngelOne:
 The project structure is organized as follows:
 
 - **Home Page (Captain)**
-  - [https://shobharathor.github.io/TeamProject/shobha/index.html)]
+  - [https://shobharathor.github.io/TeamProject/shobha/homepage/index.html)]
   - [https://shobharathor.github.io/TeamProject/shobha/loginpage/login.html]
 
 ## Contributing

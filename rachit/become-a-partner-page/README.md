@@ -35,13 +35,12 @@ Meet the amazing team behind AngelOne:
 6. Relevant class names:
    - I have used easy-to-understand class names, allowing for consistent styling across different sections.
    - This approach keeps the code organized and provides specific styles to each section.
-7. Learning:
+
+ **Learning:**
    - Use class names efficiently.
    - Use extensions like pesticide and font-finder.
    - Collaborate effectively using GitHub for teamwork.
    - Implement media queries and animations.
-
- 
     
  **About the Partner page:**
  - [Technologies Used]

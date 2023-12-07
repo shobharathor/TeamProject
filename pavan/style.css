@@ -248,6 +248,7 @@ nav{
     margin-bottom: 0px;
     margin-left: 1073px; */
     margin-right: 0px;
+   
     
 }
 .btn2{
@@ -263,6 +264,7 @@ nav{
 }
 
 .bg-blue-400{
+    cursor: pointer;
     padding: 8px 12px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -449,6 +451,12 @@ footer {
     border-radius: 0.5rem;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.nav-container li{
+    list-style-type: none;
+}
+/* .btn1{
+    cursor: pointer;
+} */
 .bt{
     border-radius:1rem ;
     padding:1rem 1rem ;

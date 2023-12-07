@@ -22,12 +22,167 @@ p{
     justify-content: center;
     align-items: center; 
 
-    /* padding: 2rem 6rem; */
+     padding: 2rem 6rem; 
 }
-.header-bar{
+
+ style of my navbar,serachbar,and button of top */
+ .section-1{
+    max-width: 100%;
+}
+    .navbar{
+    max-width: 100%;
     display: flex;
+    padding-top: 0px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    margin-left: 15px;
+    justify-content: center;
+
+
+}
+    
+    
+.logo-section img{
+    padding: 0px;
+    margin-top: 2px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 96px;
+    align-items: center;
+    width: 347px;
+    height: 57px;
+}
+
+
+.search-container{
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 0px;
+    height: 0px;
+    align-items: center;
+
+
+}
+.search-container img{
+    margin-top: -29px;
+    margin-bottom: 115px;
+    margin-left: -76px;
+    margin-right: 0px;
+    width: 24px;
+    padding-bottom: 0px;
+    padding-bottom: 0px;
+}
+.search-input{
+    width: 355px;
+    height: 31px;
+    border-radius: 3px;
+    border: 1px solid rgb(160, 155, 155);
+    align-items: center;
+    padding-top: 0px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+    padding-right: 27px;
+    margin-top: 13px;
+    margin-bottom: 1px;
+    margin-left: -91px;
+    margin-right: 5px;
+}
+.button{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-top: 13px;
+    margin-bottom: 0px;
+    margin-left: 98px;
+    
     
 }
+.bg-blue-400:hover {
+    color:  rgb(3, 3, 3);
+    background-color: rgb(142, 209, 142);
+}
+
+.bg-blue-400{
+    padding: 13px 25px;
+    margin-top: -8px;
+    margin-bottom: 0px;
+    margin-left: 210px;
+    margin-right: 5px;
+    color: white;
+    background-color: rgb(46, 46, 237);
+    border: 1px solid blue;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    
+
+}
+.bg1-blue-400{
+    padding: 12px 47px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    margin-right: 97px;
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 3px;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+}
+.bg1-blue-400:hover {
+    color: rgb(219, 231, 219); 
+    background-color: aqua;
+}
+   
+.button button{
+    transform: scale(1); 
+    transition: transform 0.5s ease-in-out;
+ }
+ .button button:hover {
+    transform: scale(1.1); 
+  }
+ 
+
+  .nav-container{
+    color: #83a6d7;
+     height:50px;
+     display:flex;
+     justify-content: center;
+     text-decoration: none;
+   
+    
+   
+}
+ .nav-container ul{
+    display:flex;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right:10px;
+    gap: 2.5rem; 
+    justify-content: space-between;
+    text-decoration: none;
+    background-color: rgb(196, 196, 244);
+    width:100%;
+   
+
+    }
+    .li{
+        list-style: none;
+        color:black;
+        font-size: larger;
+        text-decoration: none;
+        
+    }
 .mutual{
     display: flex;
     flex-direction: row;
@@ -154,7 +309,7 @@ button{
     text-align: left;
     padding-right: 6rem;
     font-size: 1.1rem;
-    line-height: 25px;
+    line-height: 30px;
     letter-spacing: 0.2px;
 }
 .benefits-section .content-section h2{
@@ -214,7 +369,7 @@ button{
  }
  .invest-container .left .invest-card{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 35rem;
     height: 6rem;
     margin-right: -5rem;
@@ -225,11 +380,12 @@ button{
  .invest-container .left .invest-card .content-section {
     text-align: left;
     padding-right: 6rem;
+    margin-left: 1rem;
  }
 
  .invest-container .right .invest-card{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 35rem;
     height: 6rem;
     
@@ -238,12 +394,14 @@ button{
  .invest-container .right .invest-card .content-section {
     text-align: left;
     padding-right: 6rem;
+    margin-left: 1rem;
  }
  .invest-container .invest-card .content-section h4{
     font-size: 1.5rem;
  }
  .invest-container .invest-card .content-section p {
          line-height: 25px;
+        
  }
  .partner-container{
       display: flex;
@@ -338,6 +496,7 @@ button{
     justify-content: center;
     gap: 27px;
     list-style: none;
+    /* color: red; */
  }
  .testimonial-container .testimonial-card-container .slide-item1, .slide-item2 {
        text-align: center;
@@ -467,15 +626,14 @@ button{
     justify-content: space-between;
  }
  .app-card-container {
+    display: flex;
     background-color: rgb(63,91,217);
     padding: 2rem 10rem;
     border-radius: 10px;
+    gap: 1rem;
+    align-items: center;
  }
- .app-container .app-card-container {
-       display: flex;
-
- }
- .app-container .app-card-container .app-card-1 {
+  .app-card-container .app-card-1 {
     display: flex;
     /* width: 50%; */
 
@@ -483,14 +641,14 @@ button{
 .app {
     padding: 2rem 10rem;
 }
-.app-container .app-card-container .app-card-1 img{
-      width: 550px;
-      height: 370px;
+ .app-card-container .app-card-1 img{
+      display: flex;
       margin-left: -150px;
       margin-top: -1.9rem;
+      align-items: center;
 
 }
- .app-container .app-card-container  .downloads-details {
+ .app-card-container  .downloads-details {
        color: rgb(255,201,2);
        font-size: 2rem;
        margin-left: -240px;
@@ -498,32 +656,219 @@ button{
        font-weight: 700;
        letter-spacing: 0.5px;
  }
- .app-container .app-card-container .app-section {
-        
-        margin-left: 6rem;
+  .app-card-container .app-section {
+        /* margin-left: 9rem; */
+        /* margin-right: -17rem; */
+
  }
- .app-container .app-card-container .app-section h5{
+  .app-card-container .app-section h5{
            font-size: 2rem;
            color: white;
  }
- .app-container .app-card-container .app-section p {
+  .app-card-container .app-section p {
        color: white;
        font-size: 1.2rem;
        margin-top: 1rem;
  }
- .app-container .app-card-container .app-section .form-section input {
-    padding: 20px;
- }
- .app-container .app-card-container .app-section .links-container {
+
+ 
+ 
+ .app-card-container .app-section .links-container {
          display: flex;
          gap: 2rem;
-        
+         margin-bottom: 1rem;
  }
- .app-container .app-card-container .app-section .links-container .apple-play {
-    border-left: 0.005px solid black;
+ .app-card-container .app-section form input {
+        width: 30rem;
+       
+ } 
+ .app-card-container .app-section form {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+ }
+ .app-card-container .app-section form button {
+        margin-left: -7rem;
+        border-radius: 7px;
+ }
+ .app-card-container .app-section .links-container img {
+         border-radius: 10px;
+         margin-bottom: 0;
+ }
+  .app-card-container .app-section .links-container .apple-play {
+    border-left: 0.005px solid lightslategrey;
     padding: 0 1rem;
    
  }
+  /* ----------------footer bar----------------------------- */
+
+ .section11{
+    background-color: rgb(65, 65, 96);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 80px;
+     
+ }
+ .footer{
+     color: #fff;
+     padding-right: 0.9375rem;
+     padding-left: 0.9375rem;
+ }
+ .footerimg{
+     padding-top: 0;
+     margin-top: 55px;
+     padding-bottom: 0;
+     border-bottom: 1px solid #38485F;
+     margin-left: 75px;
+     margin-right: 22px;
+ } 
+  .footerimg img{
+     padding-top: 0;
+     margin-top: 55px;
+     padding-bottom: 0;
+     border-bottom: 1px solid #38485F;
+     margin-left: 75px;
+     margin-right: 22px;
+     
+ } 
+ 
+   .footer-about h1{
+     color: #fff;
+     display: block;
+     font-weight: 700;
+     font-size: 16px;
+     text-decoration: none;
+     margin-bottom: 20px;
+     margin-left: 76px;
+     margin-right: 19px;
+ 
+   }
+   .footer-about p {
+     font-size: 25px;
+     font-size: large;
+     margin-right: 309px;
+     line-height: 30px;
+     width: 68rem;
+     margin-left: 59px;
+     margin-right: 10px;
+     margin-top: 7px;
+ }
+    
+ .footer-grid{
+         display: grid;
+         grid-template-rows: auto;
+         grid-template-columns: repeat(4, 1fr); 
+         gap: 10px;
+         margin-left: 146px;
+         margin-right: 0px;
+         margin-top: 0;
+         margin-top: 18px;
+         margin-bottom: 0px;
+         padding: 0px 0px;
+         padding-top: 0 ;
+         margin-top: 30px;
+         padding-bottom: 0 ;
+         border-bottom: 1px solid #38485F;
+        
+ }
+ 
+ 
+ .grid-item1 , li{
+     list-style: none;
+ } 
+ 
+ .grid-item1 p{
+     margin-left: 0px;
+     margin-right: 0px;
+     margin-top: 0;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     margin-bottom: 0px;
+     padding: 7px 0px;
+ 
+ }
+
+ /* --------------------------------footer part2----------------------------------------- */
+
+  .section12{
+    background-color: rgb(65, 65, 96);
+    display: flex;
+    justify-content:center;
+    padding-bottom: 80px;
+    color: red;
+ 
+  }
+
+
+   .footersection-2{ */
+     display:flex;
+     margin-left: 0px;
+     margin-right: 0px;
+     margin-top: 0;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     margin-bottom: 0px;
+     padding: 0px 0px;
+  }
+  .ftsec2{
+     display:flex;
+     margin-left: -400px;
+     margin-right: 0px;
+     margin-top: 0;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     margin-bottom: 0px;
+     padding: 0px 0px;
+  } 
+   .spport{
+     display:flex;
+     margin-left: 0px;
+     margin-right: 0px;
+     margin-top: 0;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     margin-bottom: 0px;
+     padding: 0px 0px;
+  }
+  .customer{
+     display: flex;
+     margin-left: 37px;
+     margin-right: 51px;
+     margin-top: 0;
+     margin-top: 0px;
+     margin-bottom: 0px;
+     margin-bottom: 0px;
+     padding: 0px 0px;
+     padding-left: 1px;
+     padding-right: 1px;;
+  }
+  .customer img{
+     margin-left: 0px;
+     margin-right: 0px;
+    
+  }
+  .footersectionpart-2{
+     display:flex;
+ 
+  }
+  .ftsecpart2{
+    display: flex;
+    margin-right: -447px;
+    margin-left: 262px;
+    margin-top: 1px;
+     margin-bottom: 0px;
+     padding: 0px 0px;
+  }
+ 
+  .customerpart-2{
+     display: flex;
+     margin-left: 10px;
+     margin-right: 64px;
+     gap: 8px;
+     margin-top: -3px;
+     margin-bottom: 0px;
+  } 
+   
 
  
 

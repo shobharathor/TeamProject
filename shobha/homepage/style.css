@@ -162,6 +162,7 @@ body{
  }
  .button button:hover {
     transform: scale(1.1); 
+    color:black;
   }
 
 }
@@ -607,6 +608,7 @@ background-image: url(images/Asset_22_1.webp);
      }
      .btn3 button:hover {
         transform: scale(1.1); 
+        color:black;
       }
 
 
@@ -1003,19 +1005,21 @@ background-image: url(images/Asset_22_1.webp);
     margin-top: 15px;
     margin-bottom: 20px;
     justify-content: center;
-    margin-left: 7rem;
+    margin-left: 80px;
+   
     
     }
     .grid-item {
         background-color: white;
         margin-top: 10px;
         margin-bottom: 10px;
-        margin-left: 5px;
-        margin-right: 5px;
+        margin-left: -10px;
+        margin-right: -9px;
         text-align: center;
         padding-top: 10px;
         padding-bottom: 10px;
         border-radius: 8px;
+        width: 360px;
     }
 
   
@@ -1035,10 +1039,7 @@ background-image: url(images/Asset_22_1.webp);
         border-radius: 5px;
     }
     .grid-item p{
-        margin-left: -226px;
-        margin-right: 0px;
-        margin-top: -23px;
-        margin-bottom: 0px;
+        margin: -29px -70px 0px -226px;
         padding-left: 0px;
         padding-top: 0px;
         padding-bottom: 25px;
@@ -1056,7 +1057,7 @@ background-image: url(images/Asset_22_1.webp);
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
-        gap: 6px;
+        gap: 8px;
         place-items: center;
         width: 100%;
         padding-left: 0px;
@@ -1066,8 +1067,8 @@ background-image: url(images/Asset_22_1.webp);
         margin-top: 15px;
         margin-bottom: 20px;
         justify-content: center;
-        margin-left: 132px;
-        margin-right: -137px;
+        margin-left: 93px;
+      
     }
 }
 /* End Section 5*/
@@ -1081,12 +1082,11 @@ background-image: url(images/Asset_22_1.webp);
         justify-content: center;
     }
    .container-6{
-        display: flex;
-        justify-content: center;
-         max-width: 1170px;
-          width: 100%;
-         margin: 0 auto;
-         padding: 0 16px;
+    display: flex;
+    justify-content: center;
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
         
 
     }
@@ -1113,8 +1113,8 @@ background-image: url(images/Asset_22_1.webp);
       }
      
       .content-container{
-        margin-left: 247px;
-        margin-right: -143px;
+        margin-left: 6px;
+       
         margin-top: 84px;
        
         margin-bottom: 0px;
@@ -1245,7 +1245,7 @@ background-image: url(images/Asset_22_1.webp);
     .container-7{
     display: flex;
     justify-content: center;
-    max-width: 1170px;
+    /* max-width: 1170px; */
     width: 100%;
     margin: 0 auto;
     padding: 0 16px;
@@ -1279,8 +1279,8 @@ background-image: url(images/Asset_22_1.webp);
 
 
      .content-container7{
-        margin-left: -32px;
-        margin-right: 234px;
+        margin-left: 10px;
+        margin-right: 11px;
         margin-top: 84px;
         margin-bottom: 0px;
         padding-left: 0px;
@@ -1685,46 +1685,149 @@ background-image: url(images/Asset_22_1.webp);
       }
   
   }
+   /* End section 9 */
 
+   /* section 10 */
+  .app-card-container1 {
+    background-color: rgb(63,91,217);
+    padding: 2rem 10rem;
+    border-radius: 10px;
+ }
+ .app-container1 .app-card-container1 {
+       display: flex;
 
+ }
+ .app-container1 .app-card-container1 .app-card-1 {
+    display: flex;
+    /* width: 50%; */
 
- /* End section 9 */
-
-
-
- /* start section 10 */
- .section10{
-    display:flex;
-    justify-content: center;
-    background-color: white;
+}
+.app1 {
+    padding: 2rem 10rem;
 }
 
-.lastsection9 img {
-    width: 1145px;
-    height: 338px;
-    margin-left: 195px;
+
+.app-container1 .app-card-container1 .app-card-1 img{
+      width: 550px;
+      height: 370px;
+      margin-left: -150px;
+      margin-top: -1.9rem;
+
+}
+ .app-container1 .app-card-container1  .downloads-details {
+       color: rgb(255,201,2);
+       font-size: 2rem;
+       margin-left: -240px;
+       margin-top: 1.7rem;
+       font-weight: 700;
+       letter-spacing: 0.5px;
+ }
+ .app-container1 .app-card-container1 .app-section1 {
+        
+        margin-left: 6rem;
+ }
+ .app-container1 .app-card-container1 .app-section1 h5{
+           font-size: 2rem;
+           color: white;
+ }
+ .app-container1 .app-card-container1 .app-section1 p {
+       color: white;
+       font-size: 1.2rem;
+       margin-top: 1rem;
+ }
+ .form-section1{
+    display: flex;
+    margin-top: 19px;
+ }
+ .app-container1 .app-card-container1 .app-section1 .form-section1 input {
+    padding: 20px;
+    width: 21rem;
+    height: 10px;
+    border-radius: 5px;
+ }
+  .form-section1  button{
+    margin-left: -108px;
+    width: 99px;
+    height: 28px;
+    background-color: #5168da;
+    border-radius: 3px;
+    color: white;
 }
 
+.form-section1  button:hover{
+    background-color: lightgreen;
+
+}
+.form-section1 button{
+    transform: scale(1); 
+    transition: transform 0.5s ease-in-out;
+   
+ }
+ .form-section1 button:hover {
+    transform: scale(1.1); 
+    color:black;
+  }
+
+
+.QRcode img{
+    margin-left:10px;
+}
+.apple-play1{
+    margin-right:10px;
+}
+
+  .app-container1 .app-card-container1 .app-section1 .links-container12 {
+         display: flex;
+         gap: 2rem;
+        
+ }
+ .app-container1 .app-card-container1 .app-section1 .links-container12 .apple-play1 {
+    border-left: 0.005px solid black;
+    padding: 0 1rem;
+   
+ }
+
+ 
+.links-container12 {
+    display: flex;
+    margin-left: -390px;
+    margin-right: 96px;
+    margin-top: 235px;
+    margin-bottom: 19px;
+    padding-left: 0px;
+    padding-top: -5px;
+    padding-bottom: -1px;
+    padding-right: 0px;
+    gap: 30px;
+}
 @media screen and (max-width : 1024px){
-    .lastsection9 img {
-        width: 786px;
-        height: 260px;
-        margin-left: 70px;
-    
+    .app-section1{
+    margin-top: 10px;
+    margin-right: 4px;
     }
-}
-@media screen and (max-width : 768px){
-    .lastsection9 img {
-        width: 719px;
-        height: 216px;
-    
+    .app1 {
+        padding: 2rem 2rem;
     }
+    .app-container1 .app-card-container1 .app-section1 {
+        margin-left: 17px;
+        margin-top:1px;
+        margin-right:1px;
+    }
+    .form-section1 button{
+        transform: scale(1); 
+        transition: transform 0.5s ease-in-out;
+        color:black;
+     }
+     .form-section1 button:hover {
+        transform: scale(1.1); 
+      }
+
+
+
 }
 
- /* End section 10 */
 
-
- /* start section 11 */
+/* start section 11 */
 .section11{
    background-color: rgb(65, 65, 96);
    display: flex;
@@ -1771,7 +1874,7 @@ background-image: url(images/Asset_22_1.webp);
     font-size: large;
     margin-right: 309px;
     line-height: 30px;
-    width: 68rem;
+    /* width: 68rem; */
     margin-left: 59px;
     margin-right: 10px;
     margin-top: 7px;
@@ -1951,6 +2054,7 @@ background-image: url(images/Asset_22_1.webp);
         margin-right: -394px;
     }
     .ftsecpart2{
+        
    margin-right: -447px;
     margin-left: 172px;
     }
